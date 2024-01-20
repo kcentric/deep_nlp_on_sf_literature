@@ -1,0 +1,3 @@
+# Set your API key
+key = "NEED TO SET YOUR OWN KEY"  # USER OF THIS PROJECT NEEDS TO SET THEIR OWN VALID OPENAI API KEY
+                                  # TO USE GPT FEEDER
