@@ -1,0 +1,702 @@
+[
+  {
+    "Sentence": "similarly secured vault well fargo union trust company bank san  francisco",
+    "['Entity', 'Entity_type']": [
+      "san  francisco",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "fx th n",
+    "['Entity', 'Entity_type']": [
+      "fx",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "mossy gray stone",
+    "['Entity', 'Entity_type']": [
+      "mossy gray",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "u fell long period silence",
+    "['Entity', 'Entity_type']": [
+      "u fell long period",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "stared wolf raised rifle",
+    "['Entity', 'Entity_type']": [
+      "stared wolf",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "another hangover night",
+    "['Entity', 'Entity_type']": [
+      "another hangover night",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "electrode jack skull knuckle sprouting wire",
+    "['Entity', 'Entity_type']": [
+      "jack skull knuckle",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "also dreamed exactly worst athtar found address one seth mitchell mind",
+    "['Entity', 'Entity_type']": [
+      "one seth mitchell",
+      "QUANTITY"
+    ]
+  },
+  {
+    "Sentence": "boris calculated chance",
+    "['Entity', 'Entity_type']": [
+      "boris calculated chance",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "nick say lay moon sixty million year",
+    "['Entity', 'Entity_type']": [
+      "sixty million year",
+      "MONEY"
+    ]
+  },
+  {
+    "Sentence": "today good day",
+    "['Entity', 'Entity_type']": [
+      "today good day",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "newark boston probably camera like one kennedy lake picture people debarking shuttle smuggling",
+    "['Entity', 'Entity_type']": [
+      "newark boston",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "seventeen per cent remember extremely pleasant outofbody experience",
+    "['Entity', 'Entity_type']": [
+      "seventeen per cent",
+      "MONEY"
+    ]
+  },
+  {
+    "Sentence": "midmorning already awake forty hurried minute arising eight",
+    "['Entity', 'Entity_type']": [
+      "forty hurried minute",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "kick strap sit confront",
+    "['Entity', 'Entity_type']": [
+      "kick strap",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "eternal midafternoon sun palely lighting",
+    "['Entity', 'Entity_type']": [
+      "midafternoon sun",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "around liberal mokan people lived creature heart big squirted poisoned blood catch prey",
+    "['Entity', 'Entity_type']": [
+      "mokan people",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "didnt like first ran across dave gerrold anthology whose name escape",
+    "['Entity', 'Entity_type']": [
+      "dave gerrold",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "farm jason smallways lay west trottersville",
+    "['Entity', 'Entity_type']": [
+      "farm jason",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "elizabeth exploded laser burst ring",
+    "['Entity', 'Entity_type']": [
+      "elizabeth exploded laser",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "screenedin porch behind kitchen could see grape arbor back yard",
+    "['Entity', 'Entity_type']": [
+      "screenedin porch",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "shirley levelheaded",
+    "['Entity', 'Entity_type']": [
+      "shirley levelheaded",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "fun outdo marvis big bust",
+    "['Entity', 'Entity_type']": [
+      "fun outdo",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jaw massively square jutted",
+    "['Entity', 'Entity_type']": [
+      "jaw massively square",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "mattin defensively",
+    "['Entity', 'Entity_type']": [
+      "mattin defensively",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jo director shook head",
+    "['Entity', 'Entity_type']": [
+      "jo director",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "grayson fed animal",
+    "['Entity', 'Entity_type']": [
+      "grayson fed",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "cluster console",
+    "['Entity', 'Entity_type']": [
+      "cluster console",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "chen provided inventory fissionable material requested",
+    "['Entity', 'Entity_type']": [
+      "chen provided",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "atarmj yarda away",
+    "['Entity', 'Entity_type']": [
+      "atarmj yarda",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "deviate law seventy thousand year old",
+    "['Entity', 'Entity_type']": [
+      "seventy thousand year old",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "made seat rafter khalid ungiant jinni escaped bottle",
+    "['Entity', 'Entity_type']": [
+      "khalid ungiant jinni",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "goh robert silverberg",
+    "['Entity', 'Entity_type']": [
+      "goh robert silverberg",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "admiral nakamura disappeared",
+    "['Entity', 'Entity_type']": [
+      "nakamura",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "vista del cerro",
+    "['Entity', 'Entity_type']": [
+      "vista del cerro",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "sandy stretch stream bank sun",
+    "['Entity', 'Entity_type']": [
+      "sandy stretch stream",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "hippocrene",
+    "['Entity', 'Entity_type']": [
+      "hippocrene",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "highly complex alphabet helen suspected",
+    "['Entity', 'Entity_type']": [
+      "alphabet helen",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rhoda talking",
+    "['Entity', 'Entity_type']": [
+      "rhoda talking",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "harry harrison norman spinrad",
+    "['Entity', 'Entity_type']": [
+      "harry harrison norman",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "awake jim called home eleven elain taken shopping afternoon",
+    "['Entity', 'Entity_type']": [
+      "awake jim called",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "helped street robe",
+    "['Entity', 'Entity_type']": [
+      "helped street",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "youngest human agent bureau history ever released",
+    "['Entity', 'Entity_type']": [
+      "youngest human agent bureau",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "otto part brain getting impatient",
+    "['Entity', 'Entity_type']": [
+      "otto part",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "white purest marble",
+    "['Entity', 'Entity_type']": [
+      "white purest",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "surrounded cane chair",
+    "['Entity', 'Entity_type']": [
+      "surrounded cane",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "wolf hung twisting",
+    "['Entity', 'Entity_type']": [
+      "wolf hung",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "hard believe take niven poumelle year think",
+    "['Entity', 'Entity_type']": [
+      "poumelle year",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "bear bowl affected",
+    "['Entity', 'Entity_type']": [
+      "bear bowl",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "published fsf year ago",
+    "['Entity', 'Entity_type']": [
+      "fsf year ago",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "carioca jones ostensibly reformed character since incident last year caused entire peninsula ostracize socially bitter blow exv star",
+    "['Entity', 'Entity_type']": [
+      "exv",
+      "NORP"
+    ]
+  },
+  {
+    "Sentence": "seated macdonalds chair",
+    "['Entity', 'Entity_type']": [
+      "seated macdonalds",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "time published may question hour local city council county board supervisor",
+    "['Entity', 'Entity_type']": [
+      "city council county board",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "plane hung watery space far submerged pyramid",
+    "['Entity', 'Entity_type']": [
+      "plane hung watery",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ffly wi hyou",
+    "['Entity', 'Entity_type']": [
+      "wi hyou",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jup stirred roek",
+    "['Entity', 'Entity_type']": [
+      "roek",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "nick thin limb hung floppily carolina laid rear seat",
+    "['Entity', 'Entity_type']": [
+      "nick thin limb hung",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "glad chosen lens one look",
+    "['Entity', 'Entity_type']": [
+      "glad chosen lens",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "flanagan nodded",
+    "['Entity', 'Entity_type']": [
+      "flanagan nodded",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "bil charls embarrassed",
+    "['Entity', 'Entity_type']": [
+      "bil charls",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "enjoy spun sugar hole jerry night slave",
+    "['Entity', 'Entity_type']": [
+      "jerry night",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "wonder last even week",
+    "['Entity', 'Entity_type']": [
+      "last even week",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "urging bailey odor chemical unlive flesh",
+    "['Entity', 'Entity_type']": [
+      "urging bailey odor chemical",
+      "FAC"
+    ]
+  },
+  {
+    "Sentence": "one sexua clue coming",
+    "['Entity', 'Entity_type']": [
+      "sexua",
+      "NORP"
+    ]
+  },
+  {
+    "Sentence": "kevin trust",
+    "['Entity', 'Entity_type']": [
+      "kevin trust",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "name julian graey tried grey",
+    "['Entity', 'Entity_type']": [
+      "julian graey",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "proved sending harriet alex woodring try make contact distant tribe burrowers",
+    "['Entity', 'Entity_type']": [
+      "harriet alex",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "cover design eric mathes unquestionably best ever seen book sf",
+    "['Entity', 'Entity_type']": [
+      "eric mathes",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "agnelli",
+    "['Entity', 'Entity_type']": [
+      "agnelli",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "freddie stone thought world",
+    "['Entity', 'Entity_type']": [
+      "freddie stone",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "stared beach",
+    "['Entity', 'Entity_type']": [
+      "stared beach",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "gopal bhargava",
+    "['Entity', 'Entity_type']": [
+      "gopal bhargava",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "somewhat loose organization formalized uncart headquarters tehran shortly turn century",
+    "['Entity', 'Entity_type']": [
+      "shortly turn century",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "compost heap hidden jewel gone",
+    "['Entity', 'Entity_type']": [
+      "jewel gone",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "one half pound table salt",
+    "['Entity', 'Entity_type']": [
+      "one half pound",
+      "QUANTITY"
+    ]
+  },
+  {
+    "Sentence": "xpert",
+    "['Entity', 'Entity_type']": [
+      "xpert",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "v p p cd p c r cd",
+    "['Entity', 'Entity_type']": [
+      "v p p cd p c r cd",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "pertin raised tumbler",
+    "['Entity', 'Entity_type']": [
+      "pertin raised",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "peruge way knowing old",
+    "['Entity', 'Entity_type']": [
+      "peruge way knowing old",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "red army occupy europe atlantic coast within week",
+    "['Entity', 'Entity_type']": [
+      "europe atlantic",
+      "LOC"
+    ]
+  },
+  {
+    "Sentence": "shattering news employment function machine",
+    "['Entity', 'Entity_type']": [
+      "shattering news",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "people future posse trait posse",
+    "['Entity', 'Entity_type']": [
+      "future posse trait posse",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "manufactured board one spaceship specifically use orbitsville",
+    "['Entity', 'Entity_type']": [
+      "manufactured board one",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "stalkercat left empty morethereby proving lopsided bargain one winner house belial toward unknown",
+    "['Entity', 'Entity_type']": [
+      "morethereby",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "jasus bosco unlikely learn much",
+    "['Entity', 'Entity_type']": [
+      "jasus bosco",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "would way interstellaria poking along subc",
+    "['Entity', 'Entity_type']": [
+      "interstellaria",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "invented two year earlier eugen schufftan later eugene shuftan",
+    "['Entity', 'Entity_type']": [
+      "eugene shuftan",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "merriliew",
+    "['Entity', 'Entity_type']": [
+      "merriliew",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "vialle",
+    "['Entity', 'Entity_type']": [
+      "vialle",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "jason favor",
+    "['Entity', 'Entity_type']": [
+      "jason favor",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "thin cold moon still high came canyon view mesa valley",
+    "['Entity', 'Entity_type']": [
+      "thin cold moon",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "hia pubhahata aaauma raaponamly ter unaohclad matarw",
+    "['Entity', 'Entity_type']": [
+      "hia pubhahata",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "swung bare foot matted floor",
+    "['Entity', 'Entity_type']": [
+      "swung bare",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "humor greg benford",
+    "['Entity', 'Entity_type']": [
+      "humor greg benford",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "fortyacre farm",
+    "['Entity', 'Entity_type']": [
+      "fortyacre",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "financial resource based superb business ability process recording transplanting personality",
+    "['Entity', 'Entity_type']": [
+      "financial resource",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "propose reconvene tomorrow morning",
+    "['Entity', 'Entity_type']": [
+      "propose reconvene",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "upper wall looked least dozen painting distant time",
+    "['Entity', 'Entity_type']": [
+      "looked least dozen",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "topsf author explore society myth provocative",
+    "['Entity', 'Entity_type']": [
+      "topsf author explore society myth",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "eddie janvert conditioned accept everything agency represented",
+    "['Entity', 'Entity_type']": [
+      "eddie janvert",
+      "PERSON"
+    ]
+  }
+]

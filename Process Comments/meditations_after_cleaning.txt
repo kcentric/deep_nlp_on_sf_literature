@@ -1,0 +1,51 @@
+- After data has been cleaned and organized, now the question is, how to measure scientific realism across
+  the corpus in a general way.
+      - I can find the frequency of the occurrence of words like "interstellar ramjet" etc. but the mere
+        frequency does not tell me anything. What do I compare it against?
+      - Brainstorming: Can I just find how many books out of the total (don't I still need to separate books then?)
+                       contain references to ANY of the concepts/terms I'm looking for?
+                           - And then a thought may be, how many references? Just to see whether it's substantially there
+                             Just any number of references can be recorded and represented, lol.
+                       Most common concepts ...
+                       How do I measure the sparseness of realistic concepts' mentions, in a definitive way?
+                           - The very fact that the author mentions an "interstellar ramjet" means at least they're hearing
+                             about it somewhere?
+                       How might I distinguish a hard science fiction book from a space opera book?
+                           - See books where some specific concepts are used heavily
+                           - Then maybe web scrape its title and find its genre?
+                             How to find genre from text?
+                       Even a book that mentions a lot of normal physics would also qualify as hard SF right. Example, Expanse.
+                       So, how do I distinguish those books?
+
+                       Wow. So cool; I discovered *topic extraction* and LDA!
+
+- Question: Is there a corpus of "realism reviews" with an agglomeration of reviews about specific books' scientific
+            realism out there? If so, I can look up each of my books using a chunk of its text with a find function
+            and pull up its review with its accuracy score/rating, right?
+
+      - Very interesting indeed. However, I would not proceed to make a giant complex project out of this particular
+        subject matter, because science fiction is not so central to humankind's main issues. No need to make a
+        comprehensive review project for some "obscure" realm/subject. Do something relevant.
+
+IDEA!: The Copyright © symbol OR "Copyright by" is oft used exactly once, near the beginning of the book (conducted several
+manual searches through pdfs of published books in various genres also).
+       - The number of "Copyright by" instances is very much going to be related to the number of books in the corpus, therefore.
+         In fact, if used rightly, it can very much provide me a way to separate the corpus into its constituent books.
+             - This is assuming that SF short stories which were included in the corpus, are also included as "books"?
+               May not be.
+             - Try generating a catalogue of "copyright pages" of all the corpus books? By extracting surrounding 200
+               characters, maybe.
+
+Notes: "Quinn Publishing Company" volumes seem to appear a lot in the corpus; the same pattern of Copyright declaration.
+       - Try checking how many times "Quinn Publishing Company" appears overall. Then see if there's an avg length per
+         volume, and an avg character length per volume.
+         - Then, tally the number of characters for all volumes combined, with the number of characters in the corpus.
+           See if it's actually Quinn which owns all the texts?
+           - If so, we are lucky because then I can also reliably separate the texts into its constituent volumes.
+
+       - Well no, Quinn doesn't own all the texts (makes sense actually; we have THOUSANDS of volumes here!) But it's
+         fairly likely that different, specific publishing corporations own volumes that appear continuously in specific
+         segments of the texts.
+         For eg., fairly deep in the corpus we find "Galaxy Publishing" whose copyright declaration begins with
+         "Copyright New York" rather than "Copyright #".
+         We can still work very well with this ...

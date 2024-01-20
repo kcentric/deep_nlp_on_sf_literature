@@ -1,0 +1,702 @@
+[
+  {
+    "Sentence": "ln theory",
+    "['Entity', 'Entity_type']": [
+      "ln theory",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "frank herbert dragon master jack vance fireman farenheit ray bradbury gravy planet space merchant",
+    "['Entity', 'Entity_type']": [
+      "frank herbert dragon",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "named benny greatgrandfather",
+    "['Entity', 'Entity_type']": [
+      "benny greatgrandfather",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "antonelli stein went back plaza middle f found rawlins boardman",
+    "['Entity', 'Entity_type']": [
+      "antonelli stein went back plaza middle",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "karl quite aware costing",
+    "['Entity', 'Entity_type']": [
+      "karl quite",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "heterosexual",
+    "['Entity', 'Entity_type']": [
+      "heterosexual",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "could wait laggard human speech",
+    "['Entity', 'Entity_type']": [
+      "laggard",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "aware technician duty receiver constantly open receive news three small black egg waving frantically",
+    "['Entity', 'Entity_type']": [
+      "aware technician duty receiver constantly",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "put full second day",
+    "['Entity', 'Entity_type']": [
+      "full second day",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "negos spuhagus",
+    "['Entity', 'Entity_type']": [
+      "negos",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "talent eaton thought visit jelmi would short one",
+    "['Entity', 'Entity_type']": [
+      "talent eaton",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "pditor cmeritus judylynn beniamin",
+    "['Entity', 'Entity_type']": [
+      "cmeritus judylynn beniamin",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "n hundred seventyodd face",
+    "['Entity', 'Entity_type']": [
+      "n hundred",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "joe roberta gibson",
+    "['Entity', 'Entity_type']": [
+      "joe roberta gibson",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "went outside drove van driveway opposite back door vinces apartment",
+    "['Entity', 'Entity_type']": [
+      "van driveway",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "greeting professional nod coal newcastle",
+    "['Entity', 'Entity_type']": [
+      "newcastle",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "handed gnossos sam pamphlet yellow paper red print",
+    "['Entity', 'Entity_type']": [
+      "sam pamphlet",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "sensation silkie screen going",
+    "['Entity', 'Entity_type']": [
+      "sensation silkie",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "set weigand dennis back momentarily",
+    "['Entity', 'Entity_type']": [
+      "weigand dennis back",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "hakstrott hurried",
+    "['Entity', 'Entity_type']": [
+      "hakstrott hurried",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "negracor john taken esperanto word black negro infixed disparaging ac particle",
+    "['Entity', 'Entity_type']": [
+      "negracor john",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "news day jammed bad boy",
+    "['Entity', 'Entity_type']": [
+      "news day",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "blue lizard left still dont know theyre",
+    "['Entity', 'Entity_type']": [
+      "blue lizard",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "carver skipped stanley eames birth upbringing scanned perfunctorily first year eames service agent america",
+    "['Entity', 'Entity_type']": [
+      "birth upbringing",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "issuo cf jakobsson",
+    "['Entity', 'Entity_type']": [
+      "issuo cf jakobsson",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "aching young love lilac laden raindrop",
+    "['Entity', 'Entity_type']": [
+      "lilac laden",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "irad marsh",
+    "['Entity', 'Entity_type']": [
+      "irad marsh",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "took two men hour load scrap estimated ton half vehicle",
+    "['Entity', 'Entity_type']": [
+      "two men hour",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "judith guccione dear mr",
+    "['Entity', 'Entity_type']": [
+      "judith guccione",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "new iowan",
+    "['Entity', 'Entity_type']": [
+      "new iowan",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "apart wendy magic world apart",
+    "['Entity', 'Entity_type']": [
+      "wendy magic",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "called formally spokesman house magda pose rebuttal",
+    "['Entity', 'Entity_type']": [
+      "magda pose",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ill weld mandible shut",
+    "['Entity', 'Entity_type']": [
+      "ill weld",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "sciencefiction magazine published",
+    "['Entity', 'Entity_type']": [
+      "sciencefiction magazine",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "tour minute till birth",
+    "['Entity', 'Entity_type']": [
+      "tour minute",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "brother jack harmony",
+    "['Entity', 'Entity_type']": [
+      "jack harmony",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "foalang kassi doompf",
+    "['Entity', 'Entity_type']": [
+      "foalang kassi",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "beard felt like two day growth bdb predicted would",
+    "['Entity', 'Entity_type']": [
+      "beard felt",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "continuum grime people invader",
+    "['Entity', 'Entity_type']": [
+      "continuum grime people",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "encountering corps",
+    "['Entity', 'Entity_type']": [
+      "encountering corps",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "batyra dap",
+    "['Entity', 'Entity_type']": [
+      "batyra dap",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "eye br",
+    "['Entity', 'Entity_type']": [
+      "eye br",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "smelt like pargain night choy house",
+    "['Entity', 'Entity_type']": [
+      "night choy house",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "pleistocene condor winged overhead",
+    "['Entity', 'Entity_type']": [
+      "pleistocene condor",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "loomed tall white candle",
+    "['Entity', 'Entity_type']": [
+      "loomed tall white candle",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rhoda will march issue",
+    "['Entity', 'Entity_type']": [
+      "rhoda",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "l edermann didnt know either",
+    "['Entity', 'Entity_type']": [
+      "l edermann",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "pamela",
+    "['Entity', 'Entity_type']": [
+      "pamela",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "sam eye glossed",
+    "['Entity', 'Entity_type']": [
+      "sam eye glossed",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "slammed switch past neutral point opposite extreme traverse",
+    "['Entity', 'Entity_type']": [
+      "slammed switch",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "poison transmitter removed",
+    "['Entity', 'Entity_type']": [
+      "poison transmitter",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "world year ago",
+    "['Entity', 'Entity_type']": [
+      "world year ago",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "since friend since catechism class day figured wouldnt working stanley pope unless okay",
+    "['Entity', 'Entity_type']": [
+      "working stanley pope",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "moffett basil well c",
+    "['Entity', 'Entity_type']": [
+      "moffett",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "disturbing prick grew stronger",
+    "['Entity', 'Entity_type']": [
+      "prick grew",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "commander howard called",
+    "['Entity', 'Entity_type']": [
+      "howard called",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "gideon faustus correspondence college internal",
+    "['Entity', 'Entity_type']": [
+      "gideon faustus correspondence college internal",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "convincing k would work k would",
+    "['Entity', 'Entity_type']": [
+      "convincing k",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "johann karlsens body whatever remained life sealed glass top heavy casket",
+    "['Entity', 'Entity_type']": [
+      "johann karlsens",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rex encounter homicidal maniac",
+    "['Entity', 'Entity_type']": [
+      "rex encounter homicidal maniac",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "returning another hectic goround fifty hundred year later",
+    "['Entity', 'Entity_type']": [
+      "fifty hundred year later",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "employed five finger seize marcias ankle jerk leg tub five finger gently pressed face water level",
+    "['Entity', 'Entity_type']": [
+      "jerk leg",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "dolph still effectively outside martian atmosphere",
+    "['Entity', 'Entity_type']": [
+      "dolph",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "harrison staring paul kosloff speculatively",
+    "['Entity', 'Entity_type']": [
+      "harrison staring paul kosloff speculatively",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "haleakala crater used graze cattle hundred year",
+    "['Entity', 'Entity_type']": [
+      "haleakala crater",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "nonhuman date daughter seemed offer easy way get something nothing",
+    "['Entity', 'Entity_type']": [
+      "nonhuman",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "average lengui centimeter counting appendage",
+    "['Entity', 'Entity_type']": [
+      "lengui centimeter",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "sitting tapping chin ivory knob handle onyx cane",
+    "['Entity', 'Entity_type']": [
+      "chin ivory knob handle onyx",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "quam hastens join",
+    "['Entity', 'Entity_type']": [
+      "quam hastens join",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "fifteen thousand two hundred foot mean sea level",
+    "['Entity', 'Entity_type']": [
+      "fifteen thousand two hundred",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "mention seen least ten snake pilot glimpsed",
+    "['Entity', 'Entity_type']": [
+      "seen least ten",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "xu loane came sky fallen",
+    "['Entity', 'Entity_type']": [
+      "xu loane",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "actrian klee",
+    "['Entity', 'Entity_type']": [
+      "actrian klee",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ril get aluminum kick john country",
+    "['Entity', 'Entity_type']": [
+      "kick john",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "guestofhonor lloyd biggie",
+    "['Entity', 'Entity_type']": [
+      "guestofhonor lloyd",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "vance packard",
+    "['Entity', 'Entity_type']": [
+      "vance packard",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rein jiggled lightly within glove",
+    "['Entity', 'Entity_type']": [
+      "rein",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "recognized doc everet george everet",
+    "['Entity', 'Entity_type']": [
+      "george everet",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "twenty third century",
+    "['Entity', 'Entity_type']": [
+      "twenty third century",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "spark guard stared surprise approaching island",
+    "['Entity', 'Entity_type']": [
+      "spark guard",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "nine seventeen died",
+    "['Entity', 'Entity_type']": [
+      "nine seventeen",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "red earth old friend teacher",
+    "['Entity', 'Entity_type']": [
+      "red earth old",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "revealing lump coal eye shade darker rest",
+    "['Entity', 'Entity_type']": [
+      "revealing lump",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "given condition scientist sure must existed earth perhaps threeandahalf billion year ago",
+    "['Entity', 'Entity_type']": [
+      "billion year ago",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "jikjik conversationally",
+    "['Entity', 'Entity_type']": [
+      "jikjik conversationally",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "kernell dookuh",
+    "['Entity', 'Entity_type']": [
+      "kernell dookuh",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "roar raced canyon sam men dug much sweat time deafening",
+    "['Entity', 'Entity_type']": [
+      "canyon sam",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "need pat girl naught else",
+    "['Entity', 'Entity_type']": [
+      "need pat girl",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "standard diagnostic bank comp handling gene manipulation restructuring",
+    "['Entity', 'Entity_type']": [
+      "standard diagnostic bank",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "day four two thousand third year imprisonment",
+    "['Entity', 'Entity_type']": [
+      "two thousand third year",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "sotnetin",
+    "['Entity', 'Entity_type']": [
+      "sotnetin",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rawuns listened best",
+    "['Entity', 'Entity_type']": [
+      "rawuns",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "yankee cellar",
+    "['Entity', 'Entity_type']": [
+      "yankee cellar",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "jeff lee",
+    "['Entity', 'Entity_type']": [
+      "jeff lee",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "todd swung hand wide",
+    "['Entity', 'Entity_type']": [
+      "todd swung",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "finest beach",
+    "['Entity', 'Entity_type']": [
+      "finest beach",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "osceola",
+    "['Entity', 'Entity_type']": [
+      "osceola",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "dropped satin rubbish floor",
+    "['Entity', 'Entity_type']": [
+      "satin rubbish floor",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "peace love fight see gather every night see quintos battered face",
+    "['Entity', 'Entity_type']": [
+      "quintos",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "glanden tork survey",
+    "['Entity', 'Entity_type']": [
+      "glanden",
+      "ORG"
+    ]
+  }
+]

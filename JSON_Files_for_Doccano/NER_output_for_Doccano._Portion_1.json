@@ -1,0 +1,702 @@
+[
+  {
+    "Sentence": "sucker bet",
+    "['Entity', 'Entity_type']": [
+      "sucker bet",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "lankey swore",
+    "['Entity', 'Entity_type']": [
+      "lankey swore",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "four year earlier",
+    "['Entity', 'Entity_type']": [
+      "four year earlier",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "unhealthy coma",
+    "['Entity', 'Entity_type']": [
+      "unhealthy coma",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "aric reached message hour ago",
+    "['Entity', 'Entity_type']": [
+      "message hour ago",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "exalting supreme patience finance bishop deprecating thoughtless irresponsibility average consumer",
+    "['Entity', 'Entity_type']": [
+      "supreme patience",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "call doc van der lie like told phoned",
+    "['Entity', 'Entity_type']": [
+      "van der lie like",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "death moon base fire",
+    "['Entity', 'Entity_type']": [
+      "death moon base fire",
+      "FAC"
+    ]
+  },
+  {
+    "Sentence": "male hebe",
+    "['Entity', 'Entity_type']": [
+      "hebe",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "jim told dan position four volunteer obtained within dreamtown",
+    "['Entity', 'Entity_type']": [
+      "dan position",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "george stared mirror behind bar",
+    "['Entity', 'Entity_type']": [
+      "george stared mirror",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "albert dominguez claim older boy offered provocation",
+    "['Entity', 'Entity_type']": [
+      "albert dominguez",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "roderick frederick ronald arthe one hundred fiftyfirst",
+    "['Entity', 'Entity_type']": [
+      "roderick frederick ronald arthe one hundred",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "spat globule tobacco juice",
+    "['Entity', 'Entity_type']": [
+      "spat globule",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "sort person wait people",
+    "['Entity', 'Entity_type']": [
+      "sort person wait",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "ever north american continent",
+    "['Entity', 'Entity_type']": [
+      "north american",
+      "NORP"
+    ]
+  },
+  {
+    "Sentence": "vhatv fretfully",
+    "['Entity', 'Entity_type']": [
+      "vhatv",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "reformation nirva advanced remarkable pace",
+    "['Entity', 'Entity_type']": [
+      "reformation nirva",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "copter risen slowly",
+    "['Entity', 'Entity_type']": [
+      "copter risen",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "weve spent six solid week looking something simply",
+    "['Entity', 'Entity_type']": [
+      "six solid week",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "plane bombed katangese airport",
+    "['Entity', 'Entity_type']": [
+      "katangese",
+      "NORP"
+    ]
+  },
+  {
+    "Sentence": "organically attached",
+    "['Entity', 'Entity_type']": [
+      "organically",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "tha old dodge came east ii hadnt dropped motor th middle road",
+    "['Entity', 'Entity_type']": [
+      "dodge came east ii",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "konstantin e",
+    "['Entity', 'Entity_type']": [
+      "konstantin",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "hockley wondered change apparently taken place thar",
+    "['Entity', 'Entity_type']": [
+      "hockley wondered change",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "checked address thick new denver book knew looked frightful stepped onto elevator",
+    "['Entity', 'Entity_type']": [
+      "denver",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "lowe smiled",
+    "['Entity', 'Entity_type']": [
+      "lowe",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "fny gody corrigan thought",
+    "['Entity', 'Entity_type']": [
+      "fny gody corrigan",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "since number six died mysteriously bathtub leave study might unmask",
+    "['Entity', 'Entity_type']": [
+      "number six",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "george looked puzzled",
+    "['Entity', 'Entity_type']": [
+      "george looked",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "braked seneca near edge manmade cliff",
+    "['Entity', 'Entity_type']": [
+      "edge manmade",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "mustve quarter six got university",
+    "['Entity', 'Entity_type']": [
+      "quarter six",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "south west well north east",
+    "['Entity', 'Entity_type']": [
+      "north east",
+      "LOC"
+    ]
+  },
+  {
+    "Sentence": "get nothing big ball rubble rain three hundred ninety day four hundred make year",
+    "['Entity', 'Entity_type']": [
+      "three hundred ninety day four hundred",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "isaac asimov",
+    "['Entity', 'Entity_type']": [
+      "isaac asimov",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "could tell u vessel seemed midway size one commission gamma class one delta class",
+    "['Entity', 'Entity_type']": [
+      "midway size one",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "tozzo even equipped customary waistlength beard handlebar mustache popular circa united state",
+    "['Entity', 'Entity_type']": [
+      "beard handlebar mustache popular circa united state",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "garter nodded head emphatically",
+    "['Entity', 'Entity_type']": [
+      "garter nodded head",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "created department interior sponsorship",
+    "['Entity', 'Entity_type']": [
+      "created department",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "van gogh",
+    "['Entity', 'Entity_type']": [
+      "van gogh",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "johnny tear",
+    "['Entity', 'Entity_type']": [
+      "johnny tear",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "know chosen guardian",
+    "['Entity', 'Entity_type']": [
+      "know chosen guardian",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "wheelan realized cut town half circle hundred cat",
+    "['Entity', 'Entity_type']": [
+      "wheelan realized cut town",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "walter fought tooth nail since day torkleson installed mooseheads walter old office",
+    "['Entity', 'Entity_type']": [
+      "mooseheads walter old",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "worry darkened horizon",
+    "['Entity', 'Entity_type']": [
+      "worry",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "thats bank day",
+    "['Entity', 'Entity_type']": [
+      "s bank day",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "hell cook u",
+    "['Entity', 'Entity_type']": [
+      "hell cook",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "asteroid belt pursuing cruiser turned aside join crucial battle trojan earth largely newbuilt",
+    "['Entity', 'Entity_type']": [
+      "battle trojan",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "indignant unscrews angrily hem doorknob",
+    "['Entity', 'Entity_type']": [
+      "unscrews",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "flada vignoli",
+    "['Entity', 'Entity_type']": [
+      "flada",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "jay question moment ago reached ear began slip back",
+    "['Entity', 'Entity_type']": [
+      "jay question",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ifs college science fiction contest gone tomorrow best story submitted answer theme question life america like year",
+    "['Entity', 'Entity_type']": [
+      "ifs college science fiction contest",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "detailed result eight century development",
+    "['Entity', 'Entity_type']": [
+      "eight century",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "lineup already includes author clifford simak",
+    "['Entity', 'Entity_type']": [
+      "clifford simak",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "leap short rarely dozen score light year",
+    "['Entity', 'Entity_type']": [
+      "score light year",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "real name clyde gabrinaldi",
+    "['Entity', 'Entity_type']": [
+      "clyde gabrinaldi",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "billet shelf space half meter wide",
+    "['Entity', 'Entity_type']": [
+      "half meter",
+      "QUANTITY"
+    ]
+  },
+  {
+    "Sentence": "thats fermented kara root local variety booze",
+    "['Entity', 'Entity_type']": [
+      "kara root",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "psychology taken giant stride last quarter century",
+    "['Entity', 'Entity_type']": [
+      "last quarter century",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "allan glasser brooklyn",
+    "['Entity', 'Entity_type']": [
+      "allan glasser",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "banged around nearly hour camp ni",
+    "['Entity', 'Entity_type']": [
+      "nearly hour",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "slammed kirk pushed back naia stood jaw",
+    "['Entity', 'Entity_type']": [
+      "slammed kirk",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "orison mccall",
+    "['Entity', 'Entity_type']": [
+      "orison mccall",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "shchikh hundred fifty credit shot",
+    "['Entity', 'Entity_type']": [
+      "hundred fifty",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "leg stiff tired allmorning trek swamp",
+    "['Entity', 'Entity_type']": [
+      "leg stiff",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jaw outthrust",
+    "['Entity', 'Entity_type']": [
+      "jaw outthrust",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "counted change three dollar fortytwo cent",
+    "['Entity', 'Entity_type']": [
+      "three dollar fortytwo cent",
+      "MONEY"
+    ]
+  },
+  {
+    "Sentence": "yon herald bearing trumpet devise give knowledge unto gentilmen",
+    "['Entity', 'Entity_type']": [
+      "yon herald bearing trumpet",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "zilo lingered",
+    "['Entity', 'Entity_type']": [
+      "zilo lingered",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ive studying karate three afternoon",
+    "['Entity', 'Entity_type']": [
+      "three afternoon",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "several crewman performing routine maintenance task hull rest watching enjoying g tried absorb enough fresh air last next four month",
+    "['Entity', 'Entity_type']": [
+      "last next four month",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "chinese porter interpreter lay like bundle rag meadowy floor valley",
+    "['Entity', 'Entity_type']": [
+      "rag meadowy floor",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "m u homs ft",
+    "['Entity', 'Entity_type']": [
+      "homs ft",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "walter e",
+    "['Entity', 'Entity_type']": [
+      "walter e",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "scalp cut watt boot clipped",
+    "['Entity', 'Entity_type']": [
+      "watt boot",
+      "LOC"
+    ]
+  },
+  {
+    "Sentence": "advertisinghollywood beauty fetish previous century",
+    "['Entity', 'Entity_type']": [
+      "previous century",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "jupiter protects great distance u oneway trip would require two year nine month technique sufficient cover earthmars run formidable gravity",
+    "['Entity', 'Entity_type']": [
+      "two year nine month",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "mark moved left",
+    "['Entity', 'Entity_type']": [
+      "mark",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "suspected hill rising mistily ahead part continuous slope",
+    "['Entity', 'Entity_type']": [
+      "suspected hill",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "ryeland thumbed journal belonged predecessor bunk",
+    "['Entity', 'Entity_type']": [
+      "ryeland thumbed journal",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "merrol smiled thinly",
+    "['Entity', 'Entity_type']": [
+      "merrol",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "stark naked completely unembarrassed",
+    "['Entity', 'Entity_type']": [
+      "stark naked",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "collision huntington beach concrete pier really great surfing spot brother wouldnt take",
+    "['Entity', 'Entity_type']": [
+      "huntington beach",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "discoverer law gravitation",
+    "['Entity', 'Entity_type']": [
+      "discoverer law gravitation",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "olga hurried",
+    "['Entity', 'Entity_type']": [
+      "olga hurried",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "macguirc installed button convenient farrels right hand",
+    "['Entity', 'Entity_type']": [
+      "macguirc installed button convenient",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "found human detect sugar amount one tablespoonful two gallon water one tablespoon salt ten gallon water",
+    "['Entity', 'Entity_type']": [
+      "two gallon",
+      "QUANTITY"
+    ]
+  },
+  {
+    "Sentence": "felt aria close",
+    "['Entity', 'Entity_type']": [
+      "felt aria",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "sunday noon set complete specification reactionless propulsion system effective suddenly hungry groggy",
+    "['Entity', 'Entity_type']": [
+      "sunday noon",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "catch anderson board ship",
+    "['Entity', 'Entity_type']": [
+      "anderson board",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "happened wellington",
+    "['Entity', 'Entity_type']": [
+      "wellington",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "aging senator georgia checked hearing aid see operating order",
+    "['Entity', 'Entity_type']": [
+      "georgia",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "rescue craft mel thought seeing actually",
+    "['Entity', 'Entity_type']": [
+      "craft mel",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "atomic bath powder girl",
+    "['Entity', 'Entity_type']": [
+      "atomic bath powder",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "weblor ii xvas ready ripening",
+    "['Entity', 'Entity_type']": [
+      "weblor ii xvas",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "electrode attached belly pregnant woman eighth month gestation record irregular pattern delta wave",
+    "['Entity', 'Entity_type']": [
+      "eighth month",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "lost race mar silverberg invents likable family",
+    "['Entity', 'Entity_type']": [
+      "mar silverberg",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "farlans channel dial fraction band used",
+    "['Entity', 'Entity_type']": [
+      "farlans channel dial fraction",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "willys scientific accomplishment many varied",
+    "['Entity', 'Entity_type']": [
+      "willys",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "convey info anything fulminant cross horizon",
+    "['Entity', 'Entity_type']": [
+      "convey info",
+      "ORG"
+    ]
+  }
+]

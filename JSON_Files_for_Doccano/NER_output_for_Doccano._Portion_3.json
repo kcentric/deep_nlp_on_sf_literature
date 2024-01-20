@@ -1,0 +1,702 @@
+[
+  {
+    "Sentence": "bright shine illuminated little world star",
+    "['Entity', 'Entity_type']": [
+      "bright shine",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "robert sheckley realm light stained glass image tibetan thangka tradition original light studio plus one minus one",
+    "['Entity', 'Entity_type']": [
+      "one minus one",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "looked night sky moon called deimos perigee",
+    "['Entity', 'Entity_type']": [
+      "moon called",
+      "FAC"
+    ]
+  },
+  {
+    "Sentence": "poogla soobuknoora nodded unison",
+    "['Entity', 'Entity_type']": [
+      "soobuknoora nodded unison",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "multmouthed creature bristling heavy fur stalked toward range seventy meter",
+    "['Entity', 'Entity_type']": [
+      "seventy meter",
+      "QUANTITY"
+    ]
+  },
+  {
+    "Sentence": "overshot chair banged bulkhead",
+    "['Entity', 'Entity_type']": [
+      "overshot chair",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "bergenfield",
+    "['Entity', 'Entity_type']": [
+      "bergenfield",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "newell life society isnt fit",
+    "['Entity', 'Entity_type']": [
+      "newell life",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "planet delge",
+    "['Entity', 'Entity_type']": [
+      "delge",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "mar two",
+    "['Entity', 'Entity_type']": [
+      "mar two",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "corner eye saw bernie pitt crutch",
+    "['Entity', 'Entity_type']": [
+      "bernie pitt crutch",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "personally supervised anthony examination",
+    "['Entity', 'Entity_type']": [
+      "anthony examination",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "thomas proclaimer deal result prophet",
+    "['Entity', 'Entity_type']": [
+      "thomas proclaimer",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "cobblestone small pond hermit prites available reaues mill street suite e grass valley ca ephyz drum company truly empowered woman creates damn universe",
+    "['Entity', 'Entity_type']": [
+      "cobblestone small pond",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "form several stillwet photographic plate",
+    "['Entity', 'Entity_type']": [
+      "stillwet",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "grant oakley noncommittal smile",
+    "['Entity', 'Entity_type']": [
+      "grant oakley noncommittal",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "lukas blinked began smile",
+    "['Entity', 'Entity_type']": [
+      "lukas blinked",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "zyhku open btgrimms",
+    "['Entity', 'Entity_type']": [
+      "zyhku",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "merril may colonial survey leinster feb earthman burden anderson dickson apr return conan de camp nyberg june lost continent de camp reprieve paradise elliott address centauri py wallace fall night clarke forgotten planet leinster child atom shiras undersea fleet highway hiding smith star bridge foundation asimov fortress world gunn please add fifteen cent per sf year greatest",
+    "['Entity', 'Entity_type']": [
+      "conan de camp",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "contact nancy christie ivan lourta prtca regular adon wuh hon tort aerigraph",
+    "['Entity', 'Entity_type']": [
+      "ivan lourta",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "wilbur evans went department chief",
+    "['Entity', 'Entity_type']": [
+      "wilbur evans",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "portrait maria centered star synthetic ruby enclosed message capsule",
+    "['Entity', 'Entity_type']": [
+      "portrait maria",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "take thorn hook really want four n year",
+    "['Entity', 'Entity_type']": [
+      "four n year",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "rizzetts voice",
+    "['Entity', 'Entity_type']": [
+      "rizzetts voice",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "nine hundred fifty mile altogether thousand mile localways",
+    "['Entity', 'Entity_type']": [
+      "nine hundred fifty mile",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "unless federation forgot pique turned sent another transport ship terrans nothing like spaceship terrans would die",
+    "['Entity', 'Entity_type']": [
+      "unless federation forgot pique",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "swung leg bunk sat edge",
+    "['Entity', 'Entity_type']": [
+      "swung leg bunk",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "castle manner advertised belief whole procedure waste time",
+    "['Entity', 'Entity_type']": [
+      "castle manner",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "procession traversed cloudcovered eastern united state",
+    "['Entity', 'Entity_type']": [
+      "eastern united state",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "berger realized really seriously touch reality",
+    "['Entity', 'Entity_type']": [
+      "berger",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "james staring corner room",
+    "['Entity', 'Entity_type']": [
+      "james staring",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "elaetficwaidlnf elactncat enginaarmg clactrician elactricaj maintananca g lndwtiial soparemoik faramanahio machankat drafting machina oattinoraftiag machina shop piactco toot daatgn q induauiat imingmonlatim machina shop inipaction raading bloaprinta koat traatmantmatalhirfy shaft mauf work shaat matal pattarn drafting rafngtraiioo markadx g combhation engmaaring diatafelaetric elklric light fowtr stationary stoam engi n oa ri ng stationary fnafnan fractkal itadiatv cngrtng radio optraling radio tv sorvking tolaitiontachnkma cloctfonsca tataffhmtwork locomoiiva enginoor c diasat locomolivo brakas cor impadar rauroad adminntratwc g taitda enginaorini colton",
+    "['Entity', 'Entity_type']": [
+      "oattinoraftiag",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "remained lofr foot pleasant tree god otherwise deserted park",
+    "['Entity', 'Entity_type']": [
+      "lofr",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "replacementquota new neutroids around three hundred animal month",
+    "['Entity', 'Entity_type']": [
+      "replacementquota",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "fiam brought small instrument pocket",
+    "['Entity', 'Entity_type']": [
+      "fiam brought small",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "javelin trailed",
+    "['Entity', 'Entity_type']": [
+      "javelin trailed",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "contributing editor albert dytch",
+    "['Entity', 'Entity_type']": [
+      "albert dytch",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "grath would rather believe thought eye",
+    "['Entity', 'Entity_type']": [
+      "grath",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "captain peter yangyeovil last heard word hoped hear",
+    "['Entity', 'Entity_type']": [
+      "peter yangyeovil last",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "moat drained long since cleaned",
+    "['Entity', 'Entity_type']": [
+      "moat",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "glava",
+    "['Entity', 'Entity_type']": [
+      "glava",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "quadraspace actually penetrated",
+    "['Entity', 'Entity_type']": [
+      "quadraspace",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "collector robert crumb people",
+    "['Entity', 'Entity_type']": [
+      "robert crumb",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "gold guide galaxy beyond unknown new sven fort novelette illustrated zoe man neighbor called sven fort took sip screwdriver",
+    "['Entity', 'Entity_type']": [
+      "novelette illustrated zoe man",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "taylor marshall explained",
+    "['Entity', 'Entity_type']": [
+      "taylor marshall",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "talking ruth khama",
+    "['Entity', 'Entity_type']": [
+      "ruth khama",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "putting sunglass hunterian noon",
+    "['Entity', 'Entity_type']": [
+      "hunterian noon",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "groan long cord reaching back stomach",
+    "['Entity', 'Entity_type']": [
+      "groan long cord",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "state please print norman rockwall al porker jon whitcomb austin briggs stovaa dohanos hobart fawcett harold von schmidt potor hoick ion stahl dong kingmoa frod ludokons abort domo never demand artist fill highpaid job",
+    "['Entity', 'Entity_type']": [
+      "al porker jon",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "fremth van allen belt",
+    "['Entity', 'Entity_type']": [
+      "fremth van allen belt",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "la buerre",
+    "['Entity', 'Entity_type']": [
+      "la buerre",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "candella hasnt given final goahead frowned submerged memory going quite program",
+    "['Entity', 'Entity_type']": [
+      "candella",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "darrig exclaimed",
+    "['Entity', 'Entity_type']": [
+      "darrig",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "mishap befallen homing probe",
+    "['Entity', 'Entity_type']": [
+      "befallen homing",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "boulder went unexplained englishman charles lyell",
+    "['Entity', 'Entity_type']": [
+      "charles lyell",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "particularly nasty association clara bill walden sniveling kid kept dogging conrad mind",
+    "['Entity', 'Entity_type']": [
+      "clara bill walden",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "edgar felt hot dry side hurt breathed",
+    "['Entity', 'Entity_type']": [
+      "edgar felt",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "paramedical technician zoologist",
+    "['Entity', 'Entity_type']": [
+      "paramedical",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "accomplishment becomes even remarkable one considers antislavery law made acceptable differing more eight hundred two independent government confederation",
+    "['Entity', 'Entity_type']": [
+      "more eight hundred two",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "cannon stretched banner",
+    "['Entity', 'Entity_type']": [
+      "cannon stretched banner",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "knight sweatily realized",
+    "['Entity', 'Entity_type']": [
+      "knight sweatily",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "mark terry chairman",
+    "['Entity', 'Entity_type']": [
+      "mark terry",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "groundin bench dirt",
+    "['Entity', 'Entity_type']": [
+      "groundin bench",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "refrigerator board airplane",
+    "['Entity', 'Entity_type']": [
+      "refrigerator board",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "heard lara repeat momentary blackout came",
+    "['Entity', 'Entity_type']": [
+      "heard lara",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "iii nowton",
+    "['Entity', 'Entity_type']": [
+      "iii nowton",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "somebody discovered older drawing jupiter showed spot",
+    "['Entity', 'Entity_type']": [
+      "drawing jupiter",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "greenbaum grofast called",
+    "['Entity', 'Entity_type']": [
+      "greenbaum grofast called",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "mother busy church bazaar pay much attention",
+    "['Entity', 'Entity_type']": [
+      "mother busy church bazaar",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "kissed jan forehead tenderly",
+    "['Entity', 'Entity_type']": [
+      "kissed jan forehead tenderly",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "shot head night",
+    "['Entity', 'Entity_type']": [
+      "shot head night",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "nightlight porcelain mandarin whose head nodded interminably touched",
+    "['Entity', 'Entity_type']": [
+      "nightlight",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "john tardy catch glimpse ty",
+    "['Entity', 'Entity_type']": [
+      "john tardy catch",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "quite mile",
+    "['Entity', 'Entity_type']": [
+      "quite mile",
+      "QUANTITY"
+    ]
+  },
+  {
+    "Sentence": "cashier desk",
+    "['Entity', 'Entity_type']": [
+      "cashier desk",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "near dusky bay",
+    "['Entity', 'Entity_type']": [
+      "dusky bay",
+      "FAC"
+    ]
+  },
+  {
+    "Sentence": "coett happily pooled information",
+    "['Entity', 'Entity_type']": [
+      "coett happily pooled information",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "alarm kns surely youre exaggerating",
+    "['Entity', 'Entity_type']": [
+      "alarm kns",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "vyrko found difficult cast",
+    "['Entity', 'Entity_type']": [
+      "vyrko",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "lqpk",
+    "['Entity', 'Entity_type']": [
+      "lqpk",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ng iisicians longer stifled",
+    "['Entity', 'Entity_type']": [
+      "iisicians",
+      "NORP"
+    ]
+  },
+  {
+    "Sentence": "sanderson dawkins also missing bill",
+    "['Entity', 'Entity_type']": [
+      "sanderson dawkins",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "anna time belonged colony",
+    "['Entity', 'Entity_type']": [
+      "anna time",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "stark harshly",
+    "['Entity', 'Entity_type']": [
+      "stark harshly",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "chemical neurosis unheard service",
+    "['Entity', 'Entity_type']": [
+      "chemical neurosis",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "wagon come way century track narrow",
+    "['Entity', 'Entity_type']": [
+      "wagon come way century",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "lamplight glancing dark obedient hair",
+    "['Entity', 'Entity_type']": [
+      "lamplight glancing dark obedient",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "stormed hill bluffer soon close",
+    "['Entity', 'Entity_type']": [
+      "stormed hill",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "hundred tvnefyfi day ive shouldnt used part z formation",
+    "['Entity', 'Entity_type']": [
+      "hundred tvnefyfi day",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "kirthlabbery concluded",
+    "['Entity', 'Entity_type']": [
+      "kirthlabbery",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "hoping anne voice",
+    "['Entity', 'Entity_type']": [
+      "hoping anne voice",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "wel play game youre sweet gift",
+    "['Entity', 'Entity_type']": [
+      "wel play game",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "david peggy",
+    "['Entity', 'Entity_type']": [
+      "david peggy",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "obligation please rash new family hospital protect ida pin pulley pm mm tm dayr frae intpeciion",
+    "['Entity', 'Entity_type']": [
+      "mm tm dayr",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "got nine five",
+    "['Entity', 'Entity_type']": [
+      "nine five",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "sort sprung",
+    "['Entity', 'Entity_type']": [
+      "sort sprung",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "dcourtney mar rest",
+    "['Entity', 'Entity_type']": [
+      "dcourtney mar rest",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "yanked rope bung drum",
+    "['Entity', 'Entity_type']": [
+      "rope bung",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "sparrow homing bird",
+    "['Entity', 'Entity_type']": [
+      "homing bird",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "discovered william hyde wollaston",
+    "['Entity', 'Entity_type']": [
+      "william hyde",
+      "PERSON"
+    ]
+  }
+]

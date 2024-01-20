@@ -1,0 +1,12 @@
+# Version 1 of RegexpTokenizer was:
+    tokenizer = RegexpTokenizer(r"[^.?!]+")   # It did not include commas!
+
+# Version 2 was:
+    tokenizer = RegexpTokenizer(r"[^.?!,]+")  # It worked very well UNTIL I was testing my find_distances_between_instances
+                                              # function:
+                                              # The distance between the second and third instance of "hinduism" in the
+                                              # current text is 57 words (I visually counted), but it came out as 58
+                                              # because the RegexpTokenizer was not using ";" !!
+
+# So, final Version 3:
+    tokenizer = RegexpTokenizer(r"[^.?!,;]+")  # Includes the semicolon also

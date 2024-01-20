@@ -1,0 +1,2 @@
+- Another way to measure realism in SF (or TREND in realism/perceived realism in SF) over past century
+  is by collating a lot of reviews by doing web scraping of books (huge number) over a tracked timeline

@@ -1,0 +1,82 @@
+Gensim seems to have a simple_preprocess method that seems to eliminate some of the things I did in clean_string.
+
+
+## Designed working LDA model initially so that it took in already-lemmatized text,
+## but realized that this does not produce bigrams or trigrams. Already-lemmatized
+## text lacks connecting words that can allow easy discernment of phrases.
+
+## RegexpTokenizer which I was using initially (found that particular initialization statement while researching
+## on GitHub, lacked ";" and other punctuations to look out for!
+
+
+### Notes after LDA model with multicore-processing enabled is ready. I think:
+#       - The corpus is far too huge to be represented well by ~20 topics.
+#
+#       - However, if I increase the topic number to ~65, firstly it takes
+#         a lot more time to train, and secondly though each topic is separate,
+#         they cover no more than ~2.5% of the corpus each (according to visualization).
+#         And that is hardly any visualization of "themes across the corpus". (High model perplexity)
+#
+#       - Therefore, it is better to do my analysis by training the model book-by-book
+#         with 10-20 topics per book.
+#         - But I'll first try actually running a 20-topic model on a big portion of the corpus and see.
+
+# EDIT: I was correct. Doing 20 topics on 200k sentences gives me too many similar-probability words per topic.
+
+
+## Days later (Dec 30, 2023):
+    - Currently have finished modularizing the code, busy optimizing LDA model.
+    - Words like "said," "replied," etc. seem to also be like stopwords, creating noise in the topic model.
+    - After I removed "said" and "replied" it appears that character names, and words like "man," "could",
+      "would" etc. also seem to be contributing to noise.
+        - But question; can I really remove something like "man" and keep the coherence of my text?
+
+    - Read a good article about NER extraction and in general such modeling, and the author said at the end
+      that there is ultimately no open-source model out there which will work out of the box on anything.
+      - This is VERY GOOD for me because it makes my project meaningful and unique. Besides the learning,
+        I am fine-tuning and essentially developing a new LDA model.
+      - Have to also figure out whether trigrams/bigrams/quadgrams give the best model ...
+      - Will link to articles (NER article for eg) in project report...
+
+    - Woah, woah, woah! I was wondering how my dataframe-creation and sentence-creation as part
+      CorpusProcessor was ever going to benefit me in this project - until now, it was a bit of
+      a time-hog when the text is first processed, because sentences are never used directly in
+      LDA modeling.
+      - BUT, today, I just figured out that for NER, I WILL need to use sentences ... and a handy
+        Pandas dataframe!
+
+  # Further Notes:
+    - Thanks to NER, now I can separate my en-route output texts into two kinds: one with and one
+      without Named Entities.
+    - I can use NER to conduct several different *kinds* of analyses on my SF corpus now: for eg,
+      besides my classic concept/tech-extraction, I can also analyze differences in portrayal of
+      characters based on gender: which is a HUGE topic of controversy about SF. Isaac Asimov,
+      for eg, was known to have really caricature female characters (well, most of his characters
+      were caricature).
+      - Interestingly, one of the texts in my corpus is Asimov's Robot text. :)
+
+   # Idea:
+     - Actually, GREAT idea. After performing NER, I can web-scrape the named entities to see if real
+       authors are included among them!! And bingo I might've just found most of the authors.
+     - Similarly for the magazine volumes. I soon might be able to completely iron out and open up
+       my data!
+
+   # Discovered ThreadPoolExecutor and joblib, but neither worked well. Spacy.pipe() itself worked
+   # ultimately, however.
+
+   # Without parallelization, my NER algo takes:
+     - 34 seconds on 10k sentences
+     - 157 seconds on 50k sentences
+     - 305 seconds on 100k sentences
+     Which indicates an O(n) progression as size of text grows.
+
+   # With parallelization, my NER algo takes:
+     - 19 seconds on 10k sentences
+     - 41 seconds on 100k sentences
+     - 65 seconds on 200k sentences
+     Which indicates an O(log n) progression as size of text grows, which is VERY significant.
+     (Note, due to overhead costs, up till 1k sentences non-parallelization is faster than
+     parallelization).
+
+     So, well well well! Apparently, I've managed to make a log n efficiency NER model !!
+   # Update: Completed NER on whole corpus (3.5 mil sentences), in 1185 seconds ONLY !!!!

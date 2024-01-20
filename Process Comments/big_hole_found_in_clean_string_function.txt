@@ -1,0 +1,17 @@
+## Comment made AFTER the other "had to make subtle corrections" document
+## Was testing find_distances_between_instances function
+
+Big hole: The clean_string function isn't splitting words based on newline!!
+If a line ends with "and" and the next line starts with "has", clean_string extracts "andhas" which is wrong!
+This would surely get compounded across a huge corpus? - except that (would-be luckily) newlines were already omitted
+from the corpus dataset I'm using.
+
+Aaand, I solved it!
+
+Issue was in this line:
+
+# Original line:
+# text = re.sub(r'\n', '', text)   # Apparently, it's splitting based on newlines but then joining 'em up
+
+# Solution:
+text = re.sub(r'\n', ' ', text)   # Solved now

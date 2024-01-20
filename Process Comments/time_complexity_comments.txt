@@ -1,0 +1,13 @@
+# Cleaning and organizing process on the first run took quite long - 275 seconds avg - possibly because many O(n) complexity functions are used.
+  # This is though a reasonable amount of time given that input file size was about 57 MB.
+    # Csv file output was initially about 261 MB; after some adjustments in code it is now about 323 MB.
+      # Second and third runs of the code, even after deleting the original cleaned-text file, took only about 8 seconds, reason unknown.
+        # Initial thought: Possibly, PyCharm stores some of the data to be used again.
+         # Note: NO. There was an error in the code which meant the list of sentences wasn't even being cleaned during the second and third runs of code.
+                 Upon correction, as expected, the code took 272.288 seconds to run.
+
+# Above notes were BEFORE adding a separate sentence tokenizing function (sent_tokenize).
+# With sent_tokenize, the processing time for lemmatizing (WITHOUT using POS-fetching) hovers around 410 seconds.
+
+
+

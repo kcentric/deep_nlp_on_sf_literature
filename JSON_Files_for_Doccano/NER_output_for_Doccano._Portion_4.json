@@ -1,0 +1,702 @@
+[
+  {
+    "Sentence": "lotka ii attached phobos planned",
+    "['Entity', 'Entity_type']": [
+      "lotka ii",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "wound reference hudson bell bird singing later race",
+    "['Entity', 'Entity_type']": [
+      "bell bird",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "act akin huck finn yves cousteau unabashed wonder approach study",
+    "['Entity', 'Entity_type']": [
+      "akin huck finn",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jennifer reminded",
+    "['Entity', 'Entity_type']": [
+      "jennifer reminded",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "kershaul pulled caveowls goatee",
+    "['Entity', 'Entity_type']": [
+      "kershaul pulled",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "shiplap",
+    "['Entity', 'Entity_type']": [
+      "shiplap",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "tte awoke bed",
+    "['Entity', 'Entity_type']": [
+      "tte awoke bed",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "figurin playin hand",
+    "['Entity', 'Entity_type']": [
+      "figurin playin",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "right tom",
+    "['Entity', 'Entity_type']": [
+      "right tom",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "boyle yelled incomprehensibly",
+    "['Entity', 'Entity_type']": [
+      "boyle yelled",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "tfie brightside mercury o drawn g",
+    "['Entity', 'Entity_type']": [
+      "tfie brightside",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "afterlife academy heaven",
+    "['Entity', 'Entity_type']": [
+      "afterlife academy",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "die l ben azai deemed worthy stood gate sixth palace saw ethereal splendor pure marble plate",
+    "['Entity', 'Entity_type']": [
+      "deemed worthy",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "fiigfi regard tfie computer",
+    "['Entity', 'Entity_type']": [
+      "fiigfi",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "frequent statement tfiat fie made trip day overseeing tfie vast organization tfian citizen made week indicated b interest tfie solution vitally personal",
+    "['Entity', 'Entity_type']": [
+      "tfian citizen made week",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "bringing peace justice world",
+    "['Entity', 'Entity_type']": [
+      "bringing peace",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "picked whispered gossip apprentice quarter first",
+    "['Entity', 'Entity_type']": [
+      "apprentice quarter",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "garr xanten",
+    "['Entity', 'Entity_type']": [
+      "garr xanten",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "crossing motorway bridge",
+    "['Entity', 'Entity_type']": [
+      "motorway bridge",
+      "FAC"
+    ]
+  },
+  {
+    "Sentence": "thou denham rose obediently",
+    "['Entity', 'Entity_type']": [
+      "thou denham",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "mer de fontana became elysium mer oudemann became trivium charontis",
+    "['Entity', 'Entity_type']": [
+      "mer oudemann",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "plank nailed leg lieu bench",
+    "['Entity', 'Entity_type']": [
+      "leg lieu",
+      "FAC"
+    ]
+  },
+  {
+    "Sentence": "clifton stared incredulously",
+    "['Entity', 'Entity_type']": [
+      "clifton stared",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "van vogt burst sf prominence exceptional story alien intelligence back",
+    "['Entity', 'Entity_type']": [
+      "van vogt burst",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "clark german carl zeiss",
+    "['Entity', 'Entity_type']": [
+      "clark german",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "sigh exasperation",
+    "['Entity', 'Entity_type']": [
+      "sigh exasperation",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "admitted harvard creche superior child usual age three month",
+    "['Entity', 'Entity_type']": [
+      "age three month",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "hint perfume air",
+    "['Entity', 'Entity_type']": [
+      "hint perfume air",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "class weapon xoskeleton",
+    "['Entity', 'Entity_type']": [
+      "xoskeleton",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "think seen flower thirty year",
+    "['Entity', 'Entity_type']": [
+      "flower thirty year",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "leave imagine gap scar make whats left history smothering greece vanishment provence troubadour papacy irish captivity wont",
+    "['Entity', 'Entity_type']": [
+      "troubadour",
+      "CARDINAL"
+    ]
+  },
+  {
+    "Sentence": "time read first fan letter american sciencefiction magazine last time saw",
+    "['Entity', 'Entity_type']": [
+      "american sciencefiction magazine",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "plato knew personal experience",
+    "['Entity', 'Entity_type']": [
+      "plato knew",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "first vanguard rocket bren finally ready fig",
+    "['Entity', 'Entity_type']": [
+      "ready fig",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "came battle ninth sector ossfollians switched side four time resulted involvement menyemians",
+    "['Entity', 'Entity_type']": [
+      "ossfollians",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "bill roister",
+    "['Entity', 'Entity_type']": [
+      "bill roister",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "numbered account pontefract bank owns irwin jeddah",
+    "['Entity', 'Entity_type']": [
+      "irwin jeddah",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "stuck apartment every night beginning eight oclock lasting almost sev en morning",
+    "['Entity', 'Entity_type']": [
+      "almost sev en morning",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "locille cornut",
+    "['Entity', 'Entity_type']": [
+      "locille cornut",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "left path hurried overtake",
+    "['Entity', 'Entity_type']": [
+      "path hurried",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rogs dark shape turned toward kendy",
+    "['Entity', 'Entity_type']": [
+      "rogs dark",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "blow star nova",
+    "['Entity', 'Entity_type']": [
+      "blow star",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "pardon hush box",
+    "['Entity', 'Entity_type']": [
+      "pardon hush",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "cowpat",
+    "['Entity', 'Entity_type']": [
+      "cowpat",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "ive standing sink hour hour",
+    "['Entity', 'Entity_type']": [
+      "sink hour hour",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "jones brought half hour ago arranged",
+    "['Entity', 'Entity_type']": [
+      "jones brought half hour ago",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "lee roger",
+    "['Entity', 'Entity_type']": [
+      "lee roger",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "overdose melange time",
+    "['Entity', 'Entity_type']": [
+      "overdose melange time",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rachel trod water strongly swung around gun",
+    "['Entity', 'Entity_type']": [
+      "rachel trod",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "started tallahassee fished way ocala",
+    "['Entity', 'Entity_type']": [
+      "tallahassee",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "terp artiyorth se ce ficial hill built center polder",
+    "['Entity', 'Entity_type']": [
+      "ce ficial hill",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "lee george scared",
+    "['Entity', 'Entity_type']": [
+      "lee george scared",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "russian rocket launched sputnik day october",
+    "['Entity', 'Entity_type']": [
+      "sputnik day",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "party lobbyist american society preservation property value gloom reillys bar grille",
+    "['Entity', 'Entity_type']": [
+      "american society preservation",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "tom caught assassin hand closing gornul",
+    "['Entity', 'Entity_type']": [
+      "tom caught",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "city declared free six night ago",
+    "['Entity', 'Entity_type']": [
+      "six night ago",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "indian summer",
+    "['Entity', 'Entity_type']": [
+      "indian summer",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "must met age age ago",
+    "['Entity', 'Entity_type']": [
+      "age age ago",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "jean dufay",
+    "['Entity', 'Entity_type']": [
+      "jean dufay",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "barbecued fryer roast potato sprinkled parsley",
+    "['Entity', 'Entity_type']": [
+      "roast potato",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "bill conway dropped glass",
+    "['Entity', 'Entity_type']": [
+      "bill conway",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "nayler",
+    "['Entity', 'Entity_type']": [
+      "nayler",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "pondering crystalized hint answer men must stressed",
+    "['Entity', 'Entity_type']": [
+      "pondering crystalized hint answer",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "crawlin stinkin jungle",
+    "['Entity', 'Entity_type']": [
+      "crawlin stinkin",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "cold clean bright lamp november night",
+    "['Entity', 'Entity_type']": [
+      "november night",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "harvey bent igan",
+    "['Entity', 'Entity_type']": [
+      "harvey bent igan",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "tommy kept huffing",
+    "['Entity', 'Entity_type']": [
+      "tommy kept huffing",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jarth rolan asked anxiously",
+    "['Entity', 'Entity_type']": [
+      "jarth rolan",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "malti muttered impatiently went ahead",
+    "['Entity', 'Entity_type']": [
+      "malti",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "precisely affected albert found standing street ic guard picked",
+    "['Entity', 'Entity_type']": [
+      "standing street ic guard",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "russian mar probe failed work simply called mar",
+    "['Entity', 'Entity_type']": [
+      "russian mar",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "rassmussen drained naug banged eltess table",
+    "['Entity', 'Entity_type']": [
+      "naug",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "western coast ireland atmospheric reflection fairly common certain time year nobody blamed thinking distant island become visible temporarily",
+    "['Entity', 'Entity_type']": [
+      "western coast ireland atmospheric",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "robot voodoo",
+    "['Entity', 'Entity_type']": [
+      "robot voodoo",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "flattopped hill",
+    "['Entity', 'Entity_type']": [
+      "flattopped hill",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "thin chest heaved spat muddy saliva",
+    "['Entity', 'Entity_type']": [
+      "spat muddy saliva",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "odis stared murv long moment",
+    "['Entity', 'Entity_type']": [
+      "odis stared murv",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "louis pinedo run braziloargentine circus",
+    "['Entity', 'Entity_type']": [
+      "louis pinedo run braziloargentine",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "pick pattern mine",
+    "['Entity', 'Entity_type']": [
+      "pick pattern",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "complaint department",
+    "['Entity', 'Entity_type']": [
+      "complaint department",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "swung boom area room",
+    "['Entity', 'Entity_type']": [
+      "swung boom area",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "original atom eve",
+    "['Entity', 'Entity_type']": [
+      "original atom eve",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "knew cattle trader letterkenny donegal",
+    "['Entity', 'Entity_type']": [
+      "letterkenny",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "norah murmured",
+    "['Entity', 'Entity_type']": [
+      "norah murmured",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "cram reactive agony back beneath overload vicarious contact",
+    "['Entity', 'Entity_type']": [
+      "cram reactive agony",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "wonder many others set john smith send common eurasia betray relative",
+    "['Entity', 'Entity_type']": [
+      "john smith send common",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "pentagon contact came reference prisoner named grayle first name",
+    "['Entity', 'Entity_type']": [
+      "grayle first",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "claudina isnt girl",
+    "['Entity', 'Entity_type']": [
+      "claudina",
+      "GPE"
+    ]
+  },
+  {
+    "Sentence": "guiding immense lightpushed sailing craft managed trip objectivetime period forty year",
+    "['Entity', 'Entity_type']": [
+      "objectivetime period forty year",
+      "DATE"
+    ]
+  },
+  {
+    "Sentence": "using inch palomar telescope",
+    "['Entity', 'Entity_type']": [
+      "palomar telescope",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "father shy havk left nest night",
+    "['Entity', 'Entity_type']": [
+      "nest night",
+      "TIME"
+    ]
+  },
+  {
+    "Sentence": "tommy love make thing",
+    "['Entity', 'Entity_type']": [
+      "tommy love",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "jacobs office",
+    "['Entity', 'Entity_type']": [
+      "jacobs office",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "brace would issue omnibus clarke knock pat statement loop",
+    "['Entity', 'Entity_type']": [
+      "pat statement loop",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "difficulty wormed cumbersome foamrubber suit onto jack robot",
+    "['Entity', 'Entity_type']": [
+      "jack robot",
+      "PRODUCT"
+    ]
+  },
+  {
+    "Sentence": "standard metal commerce",
+    "['Entity', 'Entity_type']": [
+      "standard metal commerce",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "last named seen earth dark smudge rim nearside",
+    "['Entity', 'Entity_type']": [
+      "earth dark",
+      "LOC"
+    ]
+  },
+  {
+    "Sentence": "time kearney thoughl good thought",
+    "['Entity', 'Entity_type']": [
+      "time kearney thoughl",
+      "ORG"
+    ]
+  },
+  {
+    "Sentence": "nuuitron one curious aspect nuuitron relatively short life",
+    "['Entity', 'Entity_type']": [
+      "nuuitron one",
+      "PERSON"
+    ]
+  },
+  {
+    "Sentence": "robin bicycle",
+    "['Entity', 'Entity_type']": [
+      "robin bicycle",
+      "PERSON"
+    ]
+  }
+]

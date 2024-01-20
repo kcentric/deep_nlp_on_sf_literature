@@ -1,0 +1,56 @@
+# Notes made after cleaning completed
+
+- In the meat of the text, I can see lines such as "In Professor Hermann Oberth's writings -- from # to # --
+  you can find a discussion of something he called the 'optimal velocity.'"
+
+  This indicates also that during the original creation of the dataset, some info was omitted, and some aberrations
+  occurred, such as the omission of numbers (which might have been formatted differently in the original text) and
+  seemingly random insertions of inaccurate spaces between letters within words or in other places. This may be
+  akin to how when copying a sequence from a pdf file, for example, a somewhat aberrated text might end up pasted to
+  the final text file when one hits "paste," due to inaccuracies incurred in data-type transition.
+
+  Of course, such aberrations appear to be fairly sparse and does not seem to affect analysis significantly.
+
+  Other examples of such aberrations include this sequence of text:
+
+      "Address Science-Fiction Book Club (Canada i, # Bond
+      St. Toronto #. (Good only in Continental LI. S. and Canada) e comfactors v This h  s every # f astounding J a  fiL And
+      the  ealth S sV-i I ?. answersScience-Fiction Book T .f  ?s # on Jhe fM # than-fiction  , ob , e ik storv of our ,
+      available Th e fascinating . St ; y acts not even available... authoritative iournals n etey TO # " I  s i two years'
+      But # t w# rk? about gout predict mysterious What .V. first hook  -- See oier side for full details ...>"
+
+  This "messed-up" data extraction example can be found right at the end of the corpus (observable by running a print statement
+  on the whole corpus in Pycharm). This appears to be the result of trying to extract heavily formatted data that appears at the
+  end of most printed books.
+
+  One can also observe, nevertheless, by scrolling through the text rapidly, that in its meat the data is very intact.
+
+
+- Because the text is made up of a huge corpus of different SF books, and each book has header-footer info (copyright etc.)
+  at its beginning and end that affected my text-cleaning procedures (by adding numerous, but separate from each other,
+  invalid "sentences" in the final Pandas dataframe and csv output), I was trying to examine the text visually to see
+  if there is any distinguishable *pattern* by which I can separate books from each other.
+
+  However, I was not able to find any specific pattern that marks the transition from one book to another through the
+  entirety of the text. Therefore I could not implement any algorithm-based header-footer cleaning that would make my
+  output csv/dataframe even neater.
+
+  Once again, nevertheless, this should not prove to be an issue with overall analysis, going further, because the
+  "nonsensical sentences" are - as mentioned above - distinct, separate entries in the dataframe. They are also unlikely
+  to contain any of the words/phrases we are interested in searching for, and even the number of total sentences/entries
+  in the dataframe are not increased by a very significant amount by their presence (compared to the amount of meaningful
+  entries).
+
+
+- A thought: One way to divide up the text into books during data collection itself (or after), if I were making the set
+             myself (which is out of the scope of this project), might be to keep track of each book title as its text is
+             added to the dataset.
+
+             - If the book titles are stored in order, then one can run a linear search through the text later; where the
+               second book's title appears, the second book has begun and the first had ended.
+               Of course, more specification is needed because a book's title might be something like "Light Speed" which
+               could appear a dozen times in the previous book also irrelevantly.
+                 - This also implies that one can probably extract different book titles and also possibly separate books
+                   by tone, author etc. by running an analysis through the current corpus-text also. Again, out of scope
+                   for this project.
+             - If books are separated during dataset creation itself, that is of course the best way ultimately.

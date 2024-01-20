@@ -1,0 +1,12 @@
+# Here I am making comments about the dataframe of cleaned text represented in the file sci-fi_text_cleaned_v1.csv, after making a quick visual overview.
+#   - The file being referenced was the csv output of the initial text-cleaning code as represented in text_cleaning_code_v1.py, which was the original used for the project.
+
+# The program doesn't seem to have split the text into sentences how a human would have split it into sentences:
+#   - For example, the first "sentence" contains a part of the date, which inevitably got included when collating the whole text document.
+#        - This can be remedied by doing some more inclusive NLP cleaning initially.
+#   - The second "sentence", in a similar error, contains location info; copyright info etc. also appears in other dataframe entries.
+#   - Because of this, or possibly because of a different error also, a lot of actual sentences have been broken up into non-sentence parts which
+#     are then wrongly included as "sentences" in the dataframe.
+#        - Further compounding these errors, wrongly attributed sentences result in wrongly attributed "cleaned sentences", which shall result in skewed analysis.
+
+# Because of the issues mentioned above, I changed the text-cleaning code used in the main project file.
