@@ -18,16 +18,26 @@ Finally, you can now go to the directory **LLM**, open `GPT_NER_round_1.py`, and
 
 **Note on 'LLM'**: `LLM_Interactor.py` is the module that handles the creation of - you guessed it - an LLM interaction object. It configures spaCyLLM - [please check the documentation](https://spacy.io/api/large-language-models) - using the configuration strings residing in `config_strings_2.py`, which in turn refers to `fewshot.json` for its [fewshot-training](https://blog.paperspace.com/few-shot-learning/) info. **This means that `LLM_Interactor` as well as `GPT_NER_round_1` are very independent and malleable modules.** By modifying `fewshot.json`, you can train GPT-3.5 to perform NER for any other kind of domain-specific task. You can also change the spacyLLM configuration by modifying `config_strings_2.py`, where you can modify the "labels" to be fed for your own domain-specific task. For example, you can change these lines:
 
-  `[components.llm.task]`
-  `@llm_tasks = "spacy.NER.v3"`
-  `labels = ["TECHNOLOGY", "CONCEPT", "MISCELLANEOUS SIGNIFICANT"]`
-
+```python
+`[components.llm.task]`  
+`@llm_tasks = "spacy.NER.v3"`
+`labels = ["TECHNOLOGY", "CONCEPT", "MISCELLANEOUS SIGNIFICANT"]`
+```
 to these lines:
 
+```python
   `[components.llm.task]`
   `@llm_tasks = "spacy.NER.v3"`
   `labels = ["FINANCIAL ENTITY", "NON-FINANCIAL ENTITY"]`
+```
+if you were doing NLP on finance-related texts. You can even change the LLM model used to other ones supported by spaCyLLM.
 
-if you were doing NLP on finance-related texts.
+## Features to come
 
-You can also change the LLM model used to other ones supported by spaCyLLM.
+- After RoBERTa-powered NER, we shall be using `gensim` [LDA](https://radimrehurek.com/gensim/models/ldamodel.html) and `scikit-learn` to model topics, themes etc. for further analysis on this "substantial essence" (represented by tech, concept and character-containing sentences) of the corpus.
+  - We are treating the sentences containing prominent domain-specific named-entities to be the essence of our corpus that we're concerned with. However, depending on the particular analysis _you_ want to perform, you might have extracted sentences containing other kinds of terms/entities as your essence. For example, if you wanted to model the _social_ realism of an SF corpus rather than its _scientific_ realism, or if you were examining the works of an author like [Octavia E. Butler](https://www.octaviabutler.com/theauthor), you might prefer to extract various gender-specific or worldbuilding-specific terms. Our corpus contains works more like [Isaac Asimov](https://www.britannica.com/biography/Isaac-Asimov)'s, which tend to be idea-heavy (i.e. tech and concept heavy). Thus it is reasonable to consider "tech" and "concept" terms are representing their essence, with "miscellaneous significant" capturing other theme or plot-important terms.
+  - You might also model the "essence" of your corpus in another way altogether (for example, using sentiment analysis rather than NER). 
+- We shall be using time-series analysis etc. to model the interplay of the concepts and tech-terms mentioned in the corpus. Our custom-NER output gives us a lot of leeway to examine the concepts that drive the SF corpus. Besides getting insights about how SF concepts change/evolve over the corpus, we might also get insights on how those concepts changed/evolved in actual real-world progression through the 20th century. (For example, if concepts do change over the corpus, that might simultaneously be a sign that the corpus itself represents stories that were written in a linear progression through time in the 20th century) This is likely because I am already aware that the corpus begins with the first issue of [the 'IF' magazine](https://gizmodo.com/the-entire-run-of-if-magazine-is-now-freely-available-o-1761691317) and several later texts are chronologically-later issues of the same magazine. However, after we're done with 'IF' magazine's issues, the text contains [Galaxy Magazine](https://www.theverge.com/2017/7/14/15970710/galaxy-science-fiction-magazine-online-free-reading-archive)'s early issues, which might reset our clock.
+- A final `main.py` file will be created which will contain code to visualize our results. This shall complete the project.
+
+For more about me, see my [Linkedin profile](https://www.linkedin.com/in/krishnatripathi070/).
