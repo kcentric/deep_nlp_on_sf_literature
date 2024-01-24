@@ -3,7 +3,7 @@
 ## Introduction
 
 Hello! Welcome to [my](https://www.linkedin.com/in/krishnatripathi070/) debut project. The aims of this project are threefold:
-- Develop a repository that **easily** be **refitted, reused, or expanded** to many different kinds of domain-specific literature analysis tasks. This is my overall, community-centric guiding vision.
+- Develop a repository that **easily** be **refitted, reused, or expanded** to many different kinds of domain-specific literature analysis tasks.
 - Conduct a multifarious analysis of a corpus of science fiction (SF) literature spanning several decades of the 20th century, in order to extract insights about SF literature in general, and to then present the results as visually and clearly as possible. This is the immediate purpose of my project and what the code as-is accomplishes most effectively.
 - To perform this analysis, and design the code performing each stage of it, as efficiently as possible so as to both reduce project dependency on proprietary external services, and conserve a user's budget as much as possible. This is my user-centric vision.
 
