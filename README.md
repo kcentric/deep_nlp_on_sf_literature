@@ -7,7 +7,7 @@ Hello! Welcome to [my](https://www.linkedin.com/in/krishnatripathi070/) debut pr
 - Conduct a multifarious analysis of a corpus of science fiction (SF) literature spanning several decades of the 20th century, in order to extract insights about SF literature in general, and to then present the results as visually and clearly as possible. This is the immediate purpose of my project and what the code as-is accomplishes most effectively.
 - To perform this analysis, and design the code performing each stage of it, as efficiently as possible so as to both reduce project dependency on proprietary external services, and conserve a user's budget as much as possible. This is my user-centric vision.
 
-## Note:
+### Note
 
 This project is still in its final stages of development. However, most individual modules are complete and can be used or repurposed. The documentation is also comprehensive and mostly up-to-date. However, please know that some of the organization and in-project README.txt files have not been updated yet. For example, the README.txt in the **[Archive](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/Archive)** directory does not entirely capture how the directory has evolved since then. 
 
