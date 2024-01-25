@@ -172,11 +172,18 @@ if you were doing NLP on finance-related texts. You can even change the LLM mode
 **About the `LDA` modules**: In `main files`, note that we also have [`LDA.py`](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/main%20files/LDA.py) and [`LDATrainer.py`](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/main%20files/LDATrainer.py). These are in-themselves complete modules, which if you wish, you can repurpose, test or reuse. 
 - To run `LDATrainer` as a script, change `FILEPATH` to "../Input Files/small_sample_text_for_testing.txt" or to a corpus of your own. The code-snippet (before you edit it) should look as below:
 
-  <img width="800" alt="Screenshot 2024-01-25 at 11 57 27 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/bb3491f5-fa23-4f33-b185-c472df2fc7cb">
+ ```python
+    from time import time
+    from CorpusProcessor_with_NER import CorpusProcessor
+  
+    # Path to SF corpus
+    FILEPATH = '../Data Files (Readable)/Input Files/internet_archive_scifi_v3.txt'
+ ```
+  
 
 After I have completed NER with fine-tuned RoBERTa, I shall integrate LDA modeling and topic extraction into the project workflow.
 
-**Note on `main.py`**: Prior to the final commit, a `main.py`/`app.py` file will be created, containing code to generate a visualization of our results on-demand. This shall complete the project. 
+**Note on `main.py`**: Prior to the final commit, a `main.py`/`app.py` file will be created, containing code to generate a visualization of our results on-demand, thus completing the project. 
 
 For more about me, see my [Linkedin profile](https://www.linkedin.com/in/krishnatripathi070/).
 
