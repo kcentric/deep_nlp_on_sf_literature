@@ -39,7 +39,7 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
 
 - **Step 2: Multi-stage named entity recognition** (NER). This turned out to be the most involved part of the project. You can begin exploring in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
   - [NER](https://www.turing.com/kb/a-comprehensive-guide-to-named-entity-recognition) is typically the process of extracting words or series of words from a text and categorizing them under common labels like "Person," "Organization," "Location," or custom labels like "Healthcare Terms," "Programming Languages" etc. For my corpus, I was primarily interested in extracting terms that represented *SF technologies*, *SF concepts*, and miscellaneous significant terms that contained plot- or theme-related meaning.
-  - I began by performing a blanket-NER task across the whole corpus, using a Pandas dataframe created earlier from `CorpusProcessor` as my input. The Pandas dataframe contained the corpus as a list of sentences, and my optimized NER algo using the [spaCy](https://spacy.io/api/entityrecognizer) library with its parallelization capabilities generated a **new** dataframe that would look like:
+  - I began by performing a blanket-NER task across the whole corpus, using a Pandas dataframe, created earlier by `CorpusProcessor`, as my input. The Pandas dataframe contained the corpus as a list of sentences, and my optimized NER algo using the [spaCy](https://spacy.io/api/entityrecognizer) library with its parallelization capabilities generated a **new** dataframe that would look like:
     
     ```python
                                               Sentence          Entity Entity_type
