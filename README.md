@@ -43,18 +43,18 @@ An example of a cleaned string vs an uncleaned string:
 
 ### How to use your own corpus
 
-#### Step 0:
+#### Step 0 🌱:
 - Insert a plain text file in the `Input Files` directory. There is no specific format it has to be in, but it works best if it's as regular a text file as we get. Check out `small_sample_text_for_testing.txt` to see how your corpus/file should look like.
 - Go to `CorpusProcessor_with_NER.py`. Change the `FILEPATH` variable, right at the top of the code, to say "../Input Files/`[your_file_name]`.txt". Replace `your_file_name` with your actual file name.
-- Make sure to uncomment line saying `nltk.download()` right above `FILEPATH`, if you don't have NLTK on your system
+- Make sure to uncomment the line saying `nltk.download()` right above `FILEPATH`, if you don't have NLTK on your system.
   Here's how the code-snippet at the top of the `CorpusProcessor` module should like then:
   
   <img width="1005" alt="Screenshot 2024-01-25 at 10 40 13 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/f62fa394-3d24-4141-98e8-00b7d6d2f321">
 
   Note how `nltk.download()` is not commented out now.
 
-#### Step 🚀:
-- And that's it! You're ready to go. Run `CorpusProcessor_with_NER` as a script, and see your data get cleaned 🧼, ready for further processing. Then follow the exploration guide below.
+#### Step 1 🚀:
+- And that's it! You're ready to go. Run `CorpusProcessor_with_NER` as a script, and see your data get cleaned 🧼, ready for further processing. Then follow the [exploration guide](#data-preparation) below.
 
 ## Overview of the project
 The steps I went through were as follows:
@@ -136,7 +136,8 @@ This project is in its final stages of development. Most individual modules are 
 
 As of this writing, I am currently in the process of [fine-tuning a RoBERTa model](https://colab.research.google.com/drive/1Md5Lpe4WiLxeDUzxZk8vdkRmA50MIUMh?usp=sharing) with the output acquired from `GPT_NER_Round_1.py`, in preparation for performing last-stage NER using [RoBERTa](https://github.com/facebookresearch/fairseq/blob/main/examples/roberta/README.md). If you wish to explore the project code, I suggest beginning with `CorpusProcessor_with_NER.py` in **[main files](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/main%20files)** (which actually does not contain any NER implementation within itself yet, despite being fully functional otherwise). There you will find code for multifarious data preprocessing. If you wish to run it as a script, however, please set the `FILEPATH` variable to a file you have access to and want to process. I have not hosted "internet_archive_scifi_v3.txt" (the corpus file I was using) on GitHub yet, thanks to its size.
 
-## Overview and guide
+## Exploration guide
+<a name="exploration-guide"></a>
 
 Most of the action as of the current version is contained in the directories **[main files](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/main%20files)**, **[TF-IDF](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/TF-IDF)**, and **[LLM](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/LLM)**. In **main files**, begin with `CorpusProcessor_with_NER.py` that was used for preprocessing the corpus. Then go to `NER.py` that performs first-stage NER on the corpus using [spaCy](https://github.com/explosion/spaCy) and stores the output in "NER_output2.csv" by default.
 
