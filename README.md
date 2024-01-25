@@ -2,6 +2,8 @@
 
 ## Introduction
 
+Welcome 👋
+
 The [dataset](https://www.kaggle.com/datasets/jannesklaas/scifi-stories-text-corpus/data) I began with for this project, sourced largely from the [Pulp Magazine Archive](https://archive.org/details/pulpmagazinearchive), is a huge collection of science fiction stories in a single-file text corpus, 149.33MB in raw size. Here's a [link](https://issuu.com/565585/docs/1952__03__march___if) to the first book in the corpus, and here's a snapshot of how the text looks in PyCharm: 
 
 <img width="881" alt="Screenshot 2024-01-25 at 10 07 15 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/d8275325-3377-4f9d-ae6a-4a8cbf535eee">
