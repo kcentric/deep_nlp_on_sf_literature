@@ -22,8 +22,14 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
 An example of GPT-generated annotated data (ain't it interesting? 🙂):
 
 ```python
-[('buddha', 'MISCELLANEOUS SIGNIFICANT'), ('pistol shots', 'TECHNOLOGY'), ('chart', 'TECHNOLOGY'),
-('torpedo', 'TECHNOLOGY'), ('steel shelves', 'TECHNOLOGY'), ('southeast asia', 'MISCELLANEOUS SIGNIFICANT')]
+[
+ ('buddha', 'MISCELLANEOUS SIGNIFICANT'),
+ ('pistol shots', 'TECHNOLOGY'),
+ ('chart', 'TECHNOLOGY'),
+ ('torpedo', 'TECHNOLOGY'),
+ ('steel shelves', 'TECHNOLOGY'),
+ ('southeast asia', 'MISCELLANEOUS SIGNIFICANT')
+]
 ```
 
 Some basic NER output:
@@ -48,9 +54,15 @@ An example of a cleaned string vs an uncleaned string:
 - Go to `CorpusProcessor_with_NER.py`. Change the `FILEPATH` variable, right at the top of the code, to say "../Input Files/`[your_file_name]`.txt". Replace `your_file_name` with your actual file name.
 - Make sure to uncomment the line saying `nltk.download()` right above `FILEPATH`, if you don't have NLTK on your system.
   Here's how the code-snippet at the top of the `CorpusProcessor` module should like then:
-  
-  <img width="1005" alt="Screenshot 2024-01-25 at 10 40 13 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/f62fa394-3d24-4141-98e8-00b7d6d2f321">
 
+  ```python
+  nltk.download()  # Run this line whenever the project is to be executed for the first time. 
+                   # Triggers nltk data-packs to download to the local system.
+
+  # Path to the default corpus
+  FILEPATH = '../Input_Files/my_file.txt'
+  ```
+  
   Note how `nltk.download()` is not commented out now.
 
 #### Step 1 🚀:
