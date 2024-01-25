@@ -11,11 +11,11 @@ The stories span multiple decades and contain a variety of writing styles, theme
 I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. 
 
 ### Key Highlights
-- Processed texts using customized methods, NLTK and spaCy
+- Processed texts using customized methods, [NLTK](https://www.nltk.org/) and [spaCy](https://spacy.io/)
 - Performed domain-specific named entity recognition in multiple stages
-- Fine-tuned a RoBERTa model using GPT to generate annotated data
-- Used LDA implementation for topic modeling and theme-extraction
-- Modularized code to make it highly reusable for other domain-specific literature tasks: code could be easily refitted for legal datasets, a corpus of classics etc.
+- Fine-tuned a [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta) model using [GPT](https://platform.openai.com/docs/models) to generate annotated data
+- Implemented [multicore LDA](https://radimrehurek.com/gensim/models/ldamulticore.html) for efficient topic modeling and theme-extraction
+- Modularized code to make it highly reusable for other domain-specific literature tasks: code can be easily refitted for legal datasets, a corpus of classics etc.
 
 The steps I went through were as follows:
 
