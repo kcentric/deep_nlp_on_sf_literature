@@ -23,17 +23,17 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
   - Besides cleaning, CorpusProcessor's `initial_prep` also [lemmatizes](https://builtin.com/machine-learning/lemmatization) the text, and then creates a representation of the whole corpus as a (humongous) list of words, as a list of sentences, and as a list of cleaned sentences.
 
     ```python
-        self.text_as_a_wordlist = list(itertools.chain.from_iterable(list_of_lists))  # Now we can easily use this wordlist
+    self.text_as_a_wordlist = list(itertools.chain.from_iterable(list_of_lists))  # Now we can easily use this wordlist
                                                                                       # for further processing
-        self.list_of_sentences_original = list_of_sentences
-        self.list_of_sentences_cleaned = cleaned_sentences
+    self.list_of_sentences_original = list_of_sentences
+    self.list_of_sentences_cleaned = cleaned_sentences
     ```
     By storing these various representations of the text in attributes, the `CorpusProcessor` object will then allow us to flexibly perform numerous tasks with the text as our need be. Indeed, as `initial_prep` itself shall summarize for you, if you are mistaken enough to try get a return value from it ... 🙂
 
     ```python
-        # Having some fun :)
-        return "This function does not return prepped text, but rather just preps the text to now be contained" 
-               "as the CorpusProcessor's attributes. Please call those attributes if you wish to see the cleaned text :-)"
+    # Having some fun :)
+    return "This function does not return prepped text, but rather just preps the text to now be contained" 
+           "as the CorpusProcessor's attributes. Please call those attributes if you wish to see the cleaned text :-)"
     ```
     The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a Pandas dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
 
