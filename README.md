@@ -161,10 +161,15 @@ to these lines:
 if you were doing NLP on finance-related texts. You can even change the LLM model used to other ones supported by spaCyLLM.
 
 **About the `LDA` modules**: In `main files`, note that we also have [`LDA.py`](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/main%20files/LDA.py) and [`LDATrainer.py`](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/main%20files/LDATrainer.py). These are in-themselves complete modules, which if you wish, you can repurpose, test or reuse. 
-- To run `LDATrainer` as a script, change `FILEPATH` to "../Input Files/small_sample_text_for_testing.txt" or to a corpus of your own. The code-snippet should look as below:
+- To run `LDATrainer` as a script, change `FILEPATH` to "../Input Files/small_sample_text_for_testing.txt" or to a corpus of your own. The code-snippet (before you edit it) should look as below:
 
   <img width="800" alt="Screenshot 2024-01-25 at 11 57 27 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/bb3491f5-fa23-4f33-b185-c472df2fc7cb">
 
+After I have completed NER with fine-tuned RoBERTa, I shall integrate LDA modeling and topic extraction into the project workflow.
+
+**Note on `main.py`**: Prior to the final commit, a `main.py`/`app.py` file will be created, containing code to generate a visualization of our results on-demand. This shall complete the project. 
+
+For more about me, see my [Linkedin profile](https://www.linkedin.com/in/krishnatripathi070/).
 
 <!-- Below text, idk where to include yet but we'll include somewhere when LDA is done:
 
@@ -173,5 +178,3 @@ if you were doing NLP on finance-related texts. You can even change the LLM mode
   - You might also model the "essence" of your corpus in another way altogether (for example, using sentiment analysis rather than NER). 
 - We shall be using time-series analysis etc. to model the interplay of the concepts and tech-terms mentioned in the corpus. Our custom-NER output gives us a lot of leeway to examine the concepts that drive the SF corpus. Besides getting insights about how SF concepts change/evolve over the corpus, we might also get insights on how those concepts changed/evolved in actual real-world progression through the 20th century. (For example, if concepts do change over the corpus, that might simultaneously be a sign that the corpus itself represents stories that were written in a linear progression through time in the 20th century) This is likely because I am already aware that the corpus begins with the first issue of [the 'IF' magazine](https://gizmodo.com/the-entire-run-of-if-magazine-is-now-freely-available-o-1761691317) and several later texts are chronologically-later issues of the same magazine. However, after we're done with 'IF' magazine's issues, the text contains [Galaxy Magazine](https://www.theverge.com/2017/7/14/15970710/galaxy-science-fiction-magazine-online-free-reading-archive)'s early issues, which might reset our clock.
 - A final `main.py` file will be created which will contain code to visualize our results. This shall complete the project. -->
-
-For more about me, see my [Linkedin profile](https://www.linkedin.com/in/krishnatripathi070/).
