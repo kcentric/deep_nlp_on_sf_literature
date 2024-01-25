@@ -14,10 +14,10 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
   - I **clean** the tokenized text by removing spaces, words like "a, an, the" that may not add meaning but are very frequent in the data, etc. The function doing most of this work is `clean_string`. Its header looks like this in `CorpusProcessor`:
 
     ```python
-      def clean_string(self, text, only_remove_line_breaks=False, pos_tokens_if_lemmatizing=None, find_pos=False,
-                       stem="None", working_on_stories=True):
-          """Takes in a string and removes line breaks, punctuation, stop-words, numbers, and proceeds to stem/lemmatize.
-          Returns the "cleaned" text finally. Capable of nuances depending on inputs."""
+    def clean_string(self, text, only_remove_line_breaks=False, pos_tokens_if_lemmatizing=None, find_pos=False,
+                     stem="None", working_on_stories=True):
+        """Takes in a string and removes line breaks, punctuation, stop-words, numbers, and proceeds to stem/lemmatize.
+        Returns the "cleaned" text finally. Capable of nuances depending on inputs."""
     ```
      Note that we have a `working_on_stories` parameter that defaults to `True`. The reason I made my cleaning methods so versatile and customized is that for domain-specific datasets, merely removing "a, an, the" etc. **is not sufficient**. For example, the words "said," "replied," "asked" might be just as common in a story-corpus as the article "and". (I have not statistically modeled this. Feel free to drop me a comment about whether this is true 🙂)
   - Besides cleaning, CorpusProcessor's `initial_prep` also [lemmatizes](https://builtin.com/machine-learning/lemmatization) the text, and then creates a representation of the whole corpus as a (humongous) list of words, as a list of sentences, and as a list of cleaned sentences.
