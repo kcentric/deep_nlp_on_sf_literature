@@ -8,7 +8,16 @@ Hello! Welcome to my debut project. The [dataset](https://www.kaggle.com/dataset
 
 The stories span multiple decades and contain a variety of writing styles, themes, and ideas. They represent a good snapshot of 20th-century SF literature, and have demonstrated their usefulness before for awesome projects like [Robin Sloan's Autocomplete](https://www.robinsloan.com/notes/writing-with-the-machine/).
 
-I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. The steps I went through were as follows:
+I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. 
+
+### Key Highlights
+- Processed texts using customized methods, NLTK and spaCy
+- Performed domain-specific named entity recognition in multiple stages
+- Fine-tuned a RoBERTa model using GPT to generate annotated data
+- Used LDA implementation for topic modeling and theme-extraction
+- Modularized code to make it highly reusable for other domain-specific literature tasks: code could be easily refitted for legal datasets, a corpus of classics etc.
+
+The steps I went through were as follows:
 
 ### Step 1: Rigorous data preparation 
 You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
