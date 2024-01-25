@@ -54,7 +54,7 @@ An example of a cleaned string vs an uncleaned string:
   Note how `nltk.download()` is not commented out now.
 
 #### Step 1 🚀:
-- And that's it! You're ready to go. Run `CorpusProcessor_with_NER` as a script, and see your data get cleaned 🧼, ready for further processing. Then follow the [exploration guide](#data-preparation) below.
+- And that's it! You're ready to go. Run `CorpusProcessor_with_NER` as a script, and see your data get cleaned 🧼, ready for further processing. Then follow the [exploration guide](#exploration-guide) below.
 
 ## Overview of the project
 The steps I went through were as follows:
