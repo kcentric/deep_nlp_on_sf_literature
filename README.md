@@ -95,7 +95,7 @@ You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://
     return "This function does not return prepped text, but rather just preps the text to now be contained" 
            "as the CorpusProcessor's attributes. Please call those attributes if you wish to see the cleaned text :-)"
     ```
-    The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a Pandas dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
+    The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a [Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
 
 ### Step 2: Multi-stage named entity recognition (NER) 
 This turned out to be the most involved part of the project. You can begin exploring in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
