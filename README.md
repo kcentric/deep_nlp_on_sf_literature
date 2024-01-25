@@ -2,7 +2,45 @@
 
 ## Introduction
 
-Hello! Welcome to [my](https://www.linkedin.com/in/krishnatripathi070/) debut project. The aims of this project are threefold:
+Hello! Welcome to my debut project. The [dataset](https://www.kaggle.com/datasets/jannesklaas/scifi-stories-text-corpus/data) I began with for this project, sourced largely from the [Pulp Magazine Archive](https://archive.org/details/pulpmagazinearchive), is a huge collection of science fiction stories in a single-file text corpus, 149.33MB in raw size. Here's how the first couple lines look in PyCharm 🙂 (it's the editor's intro to [IF Magazine](https://archive.org/details/ifmagazine)):
+
+<img width="1142" alt="Screenshot 2024-01-24 at 4 49 11 PM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/05e73979-e2cb-4baf-9dd6-1280d34aab43">
+
+The stories span multiple decades and contain a variety of writing styles, themes, and ideas. They represent a good snapshot of 20th-century SF literature, and have demonstrated their usefulness before for awesome projects like [Robin Sloan's Autocomplete](https://www.robinsloan.com/notes/writing-with-the-machine/).
+
+I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. The steps were as follows:
+- **Step 1:** Rigorously preparing the data. You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
+  - I split the text into units of sentences and tokens using [NLTK](https://www.nltk.org/). Tokens are analogous to words in that they are units of meaning: they make text better suited for Natural Language Processing (NLP). Here are some [examples](https://www.nltk.org/howto/tokenize.html).
+  - I **clean** the tokenized text by removing spaces, words like "a, an, the" that may not add meaning but are very frequent in the data. The function doing most of this work is `clean_string`. Its header looks like this in `CorpusProcessor`:
+
+    ```python
+      def clean_string(self, text, only_remove_line_breaks=False, pos_tokens_if_lemmatizing=None, find_pos=False,
+                       stem="None", working_on_stories=True):
+          """Takes in a string and removes line breaks, punctuation, stop-words, numbers, and proceeds to stem/lemmatize.
+          Returns the "cleaned" text finally. Capable of nuances depending on inputs."""
+    ```
+     Note that we have a `working_on_stories` parameter that defaults to `True`. The reason I made my cleaning methods so versatile and customized is that for domain-  specific datasets, merely removing "a, an, the" etc. **is not sufficient**. For example, the words "said," "replied," "asked" might be just as common in a story-corpus as the article "and". (I have not statistically modeled this. Feel free to drop me a comment about whether this is true 🙂)
+  - Besides cleaning, CorpusProcessor's `initial_prep` also [lemmatizes](https://builtin.com/machine-learning/lemmatization) the text, and then creates a representation of the whole corpus as a (humongous) list of words, as a list of sentences, and as a list of cleaned sentences.
+
+    ```python
+        self.text_as_a_wordlist = list(itertools.chain.from_iterable(list_of_lists))  # Now we can easily use this wordlist
+                                                                                      # for further processing
+        self.list_of_sentences_original = list_of_sentences
+        self.list_of_sentences_cleaned = cleaned_sentences
+    ```
+    By storing these various representations of the text in attributes, the `CorpusProcessor` object will then allow us to flexibly perform numerous tasks with the text as our need be. Indeed, as `initial_prep` itself shall summarize for you, if you are mistaken enough to try get a return value from it ... 🙂
+
+    ```python
+        # Having some fun :)
+        return "This function does not return prepped text, but rather just preps the text to now be contained" 
+               "as the CorpusProcessor's attributes. Please call those attributes if you wish to see the cleaned text :-)"
+    ```
+The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a Pandas dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
+
+- **Step 2**: Named Entity Recognition (NER). You can find the code in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
+
+
+The aims of this project are threefold:
 - Develop a repository that **easily** be **refitted, reused, or expanded** to many different kinds of domain-specific literature analysis tasks. This is the overall, community-oriented guiding vision.
 - Conduct a multifarious analysis of a corpus of science fiction (SF) literature spanning several decades of the 20th century, in order to extract insights about SF literature in general, and to then present the results as visually and clearly as possible. This is the immediate purpose of my project and what the code as-is accomplishes most effectively.
 - To perform this analysis, and design the code performing each stage of it, as efficiently as possible so as to both reduce project dependency on proprietary external services, and conserve a user's budget as much as possible. This is the user-centric part of my vision.
