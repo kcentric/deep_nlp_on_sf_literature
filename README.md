@@ -43,7 +43,7 @@ An example of a cleaned string vs an uncleaned string:
 
 ### How to use your own corpus
 
-#### Step 0.1:
+#### Step 0:
 - Insert a plain text file in the `Input Files` directory. There is no specific format it has to be in, but it works best if it's as regular a text file as we get. Check out `small_sample_text_for_testing.txt` to see how your corpus/file should look like.
 - Go to `CorpusProcessor_with_NER.py`. Change the `FILEPATH` variable, right at the top of the code, to say "../Input Files/`[your_file_name]`.txt". Replace `your_file_name` with your actual file name.
 - Make sure to uncomment line saying `nltk.download()` right above `FILEPATH`, if you don't have NLTK on your system
@@ -53,7 +53,7 @@ An example of a cleaned string vs an uncleaned string:
 
   Note how `nltk.download()` is not commented out now.
 
-#### Step 0.2:
+#### Step 🚀:
 - And that's it! You're ready to go. Run `CorpusProcessor_with_NER` as a script, and see your data get cleaned 🧼, ready for further processing. Then follow the exploration guide below.
 
 ## Overview of the project
