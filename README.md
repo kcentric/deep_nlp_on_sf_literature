@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Hello! Welcome to my debut project. The [dataset](https://www.kaggle.com/datasets/jannesklaas/scifi-stories-text-corpus/data) I began with for this project, sourced largely from the [Pulp Magazine Archive](https://archive.org/details/pulpmagazinearchive), is a huge collection of science fiction stories in a single-file text corpus, 149.33MB in raw size. Here's how the first couple lines look in PyCharm 🙂 (it's the editor's intro to [IF Magazine](https://archive.org/details/ifmagazine)):
+The [dataset](https://www.kaggle.com/datasets/jannesklaas/scifi-stories-text-corpus/data) I began with for this project, sourced largely from the [Pulp Magazine Archive](https://archive.org/details/pulpmagazinearchive), is a huge collection of science fiction stories in a single-file text corpus, 149.33MB in raw size. Here's a [link](https://issuu.com/565585/docs/1952__03__march___if) to the first book in the corpus, and here's a snapshot of how the text looks in PyCharm: 
 
-<img width="1142" alt="Screenshot 2024-01-24 at 4 49 11 PM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/05e73979-e2cb-4baf-9dd6-1280d34aab43">
+<img width="881" alt="Screenshot 2024-01-25 at 10 07 15 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/d8275325-3377-4f9d-ae6a-4a8cbf535eee">
 
 The stories span multiple decades and contain a variety of writing styles, themes, and ideas. They represent a good snapshot of 20th-century SF literature, and have demonstrated their usefulness before for awesome projects like [Robin Sloan's Autocomplete](https://www.robinsloan.com/notes/writing-with-the-machine/).
 
@@ -17,6 +17,44 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
 - Implemented [multicore LDA](https://radimrehurek.com/gensim/models/ldamulticore.html) for efficient topic modeling and theme-extraction
 - Modularized code to make it highly reusable for other domain-specific literature tasks: code can be easily refitted for legal datasets, a corpus of classics etc.
 
+An example of GPT-generated annotated data (ain't it interesting? 🙂):
+
+```python
+[('buddha', 'MISCELLANEOUS SIGNIFICANT'), ('pistol shots', 'TECHNOLOGY'), ('chart', 'TECHNOLOGY'),
+('torpedo', 'TECHNOLOGY'), ('steel shelves', 'TECHNOLOGY'), ('southeast asia', 'MISCELLANEOUS SIGNIFICANT')]
+```
+
+Some basic NER output:
+
+```python
+                                                               Sentence         Entity   Entity_type
+2294  plane cloud degree climb dozen mile towards philippine anyone yat...    dozen mile    QUANTITY
+2295                                                    seen kyoto buddha          kyoto         GPE
+2296                                 would make building quarter mile long  quarter mile    QUANTITY
+```
+An example of a cleaned string vs an uncleaned string:
+
+```python
+     Sentences                                                Cleaned Sentences
+122, yet in the way they moved and in the way they stood      yet way moved way stood
+```
+
+### How to use your own corpus
+
+#### Step 0.1:
+- Insert a plain text file in the `Input Files` directory. There is no specific format it has to be in, but it works best if it's as regular a text file as we get. Check out `small_sample_text_for_testing.txt` to see how your corpus/file should look like.
+- Go to `CorpusProcessor_with_NER.py`. Change the `FILEPATH` variable, right at the top of the code, to say "../Input Files/`[your_file_name]`.txt". Replace `your_file_name` with your actual file name.
+- Make sure to uncomment line saying `nltk.download()` right above `FILEPATH`, if you don't have NLTK on your system
+  Here's how the code-snippet at the top of the `CorpusProcessor` module should like then:
+  
+  <img width="1005" alt="Screenshot 2024-01-25 at 10 40 13 AM" src="https://github.com/kkrishna24/deep_nlp_on_sf_literature/assets/121068842/f62fa394-3d24-4141-98e8-00b7d6d2f321">
+
+  Note how `nltk.download()` is not commented out now.
+
+#### Step 0.2:
+- And that's it! You're ready to go. Run `CorpusProcessor_with_NER` as a script, and see your data get cleaned 🧼, ready for further processing. Then follow the exploration guide below.
+
+## Overview of the project
 The steps I went through were as follows:
 
 ### Step 1: Rigorous data preparation 
@@ -59,7 +97,7 @@ This turned out to be the most involved part of the project. You can begin explo
     1  year 2050 marked new era humanity.                          2050        Date
       ```
     This gave me a lot of meaning-containing sentences with their general entities. `spaCy` by itself of course cannot do something as specialized as extracting SF technology- and concept-terms from the text (without a significant amount of training, at least), which took me to the next stage.
-  - I prepared a module (check [`sentences_with_entities.py`](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/sentences_with_entities.py)) to help me extract all _original_ (uncleaned/unmodified) sentences from the corpus which contain _any_ of the named entities found by spaCy: essentially, the original versions of the sentences which I fed to spaCy. For example, the above dataframe would now be modified to look like:
+  - I prepared a module (check [`sentences_of_entities.py`](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/sentences_of_entities.py)) to help me extract all _original_ (uncleaned/unmodified) sentences from the corpus which contain _any_ of the named entities found by spaCy: essentially, the original versions of the sentences which I fed to spaCy. For example, the above dataframe would now be modified to look like:
     
     ```python
                                               Sentence          Entity Entity_type
