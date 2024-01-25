@@ -23,12 +23,9 @@ An example of GPT-generated annotated data (ain't it interesting? 🙂):
 
 ```python
 [
- ('buddha', 'MISCELLANEOUS SIGNIFICANT'),
- ('pistol shots', 'TECHNOLOGY'),
- ('chart', 'TECHNOLOGY'),
- ('torpedo', 'TECHNOLOGY'),
- ('steel shelves', 'TECHNOLOGY'),
- ('southeast asia', 'MISCELLANEOUS SIGNIFICANT')
+ ('buddha', 'MISCELLANEOUS SIGNIFICANT'), ('pistol shots', 'TECHNOLOGY'),
+ ('chart', 'TECHNOLOGY'), ('torpedo', 'TECHNOLOGY'),
+ ('steel shelves', 'TECHNOLOGY'), ('southeast asia', 'MISCELLANEOUS SIGNIFICANT')
 ]
 ```
 
