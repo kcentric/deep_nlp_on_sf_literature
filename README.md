@@ -8,8 +8,10 @@ Hello! Welcome to my debut project. The [dataset](https://www.kaggle.com/dataset
 
 The stories span multiple decades and contain a variety of writing styles, themes, and ideas. They represent a good snapshot of 20th-century SF literature, and have demonstrated their usefulness before for awesome projects like [Robin Sloan's Autocomplete](https://www.robinsloan.com/notes/writing-with-the-machine/).
 
-I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. The steps were as follows:
-- **Step 1: Rigorous preparation** of the data. You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
+I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. The steps I went through were as follows:
+
+### Step 1: Rigorous data preparation 
+You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
   - I split the text into units of sentences and tokens using [NLTK](https://www.nltk.org/). Tokens are analogous to words in that they are units of meaning: they make text better suited for Natural Language Processing (NLP). Here are some [examples](https://www.nltk.org/howto/tokenize.html).
   - I **clean** the tokenized text by removing spaces, words like "a, an, the" that may not add meaning but are very frequent in the data, etc. The function doing most of this work is `clean_string`. Its header looks like this in `CorpusProcessor`:
 
@@ -37,22 +39,49 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
     ```
     The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a Pandas dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
 
-- **Step 2: Multi-stage named entity recognition** (NER). This turned out to be the most involved part of the project. You can begin exploring in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
+### Step 2: Multi-stage named entity recognition (NER) 
+This turned out to be the most involved part of the project. You can begin exploring in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
   - [NER](https://www.turing.com/kb/a-comprehensive-guide-to-named-entity-recognition) is typically the process of extracting words or series of words from a text and categorizing them under common labels like "Person," "Organization," "Location," or custom labels like "Healthcare Terms," "Programming Languages" etc. For my corpus, I was primarily interested in extracting terms that represented *SF technologies*, *SF concepts*, and miscellaneous significant terms that contained plot- or theme-related meaning.
   - I began by performing a blanket-NER task across the whole corpus, using a Pandas dataframe, created earlier by `CorpusProcessor`, as my input. The Pandas dataframe contained the corpus as a list of sentences, and my optimized NER algo using the [spaCy](https://spacy.io/api/entityrecognizer) library with its parallelization capabilities generated a **new** dataframe that would look like:
+    
+    ```python
+                                              Sentence          Entity Entity_type
+    0  galaxy far, far away, Luke Skywalker tra...       Luke Skywalker      Person
+    1  year 2050 marked new era humanity.                          2050        Date
+      ```
+    This gave me a lot of meaning-containing sentences with their general entities. `spaCy` by itself of course cannot do something as specialized as extracting SF technology- and concept-terms from the text (without a significant amount of training, at least), which took me to the next stage.
+  - I prepared a module (check [`sentences_with_entities.py`](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/sentences_with_entities.py)) to help me extract all _original_ (uncleaned/unmodified) sentences from the corpus which contain _any_ of the named entities found by spaCy: essentially, the original versions of the sentences which I fed to spaCy. For example, the above dataframe would now be modified to look like:
     
     ```python
                                               Sentence          Entity Entity_type
     0  In a galaxy far, far away, Luke Skywalker tra...  Luke Skywalker      Person
     1  The year 2050 marked a new era for humanity.                2050        Date
       ```
+    Note the return of words like "a", "the", "in", "for" etc., which for the previous stage had been removed as [stop-words](https://kavita-ganesan.com/what-are-stop-words/).
+    - The reason for this is that I planned to integrate with an LLM (large language model) like [GPT-3.5](https://platform.openai.com/docs/models) for some of my next steps, and LLMs are designed to generally do _better_ on texts which look exactly like what a human would write, than bare-bones word-strings.
+  - At this point, I had a set of ~135k sentences. I further used [scikit-learn](https://github.com/scikit-learn/scikit-learn)'s [`TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) and KMeans clustering to extract a diverse batch of ~10k sentences to represent this set. 
+    - Find the TF-IDF code in [`TF-IDF`](https://github.com/kkrishna24/deep_nlp_on_sf_literature/tree/main/TF-IDF).
+    - The reason we want to use ~10k sentences rather than ~135k (or 3.5 million, for that matter) is that we would have to _pay_ for that API usage (OpenAI's software is proprietary) - not to mention the huge increases in processing time that come with talking with an LLM in real-time (it took ~2 hours to run 10k sentences past GPT-3.5! That was the longest processing time for any single stage of my code).
+  - I then ran `GPT_NER_Round_1.py`, which you can find in [this](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/LLM) directory along with its prep and configuration modules. `GPT_NER_Round_1` integrates few-shot learning with [`spacy-llm`](https://spacy.io/api/large-language-models) and OpenAI API to extract terms under `TECHNOLOGY`, `CONCEPT`, and `MISCELLANEOUS SIGNIFICANT` labels from our 10k-sentence sample dataset. The output is stored in `GPTResponses.json`, which is a list of Python dictionaries, each in this basic format:
 
-The aims of this project are threefold:
-- Develop a repository that **easily** be **refitted, reused, or expanded** to many different kinds of domain-specific literature analysis tasks. This is the overall, community-oriented guiding vision.
-- Conduct a multifarious analysis of a corpus of science fiction (SF) literature spanning several decades of the 20th century, in order to extract insights about SF literature in general, and to then present the results as visually and clearly as possible. This is the immediate purpose of my project and what the code as-is accomplishes most effectively.
-- To perform this analysis, and design the code performing each stage of it, as efficiently as possible so as to both reduce project dependency on proprietary external services, and conserve a user's budget as much as possible. This is the user-centric part of my vision.
+  ```python
+  {
+    "span_of_para_in_sentence_list": [ "Beginning:0", "End:10" ],
+    "entities_in_para": [ [ "second class matter", "CONCEPT" ], [ "howard browne", "MISCELLANEOUS SIGNIFICANT" ] ]
+  }
+```
+  - After getting this GPT-generated data, I now use it as [training data](https://discuss.huggingface.co/t/training-a-domain-specific-roberta-from-roberta-base/2324) for [fine-tuning a RoBERTa model](https://colab.research.google.com/drive/1Md5Lpe4WiLxeDUzxZk8vdkRmA50MIUMh?usp=sharing). RoBERTa, unlike GPT-3.5, is an [open-source model](https://www.ibm.com/blog/open-source-large-language-models-benefits-risks-and-types/) which is perfectly suited for my goal of achieving project independency and reducing budget as much as possible. Find RoBERTa documentation [here](https://huggingface.co/docs/transformers/model_doc/roberta).
+  - The fine-tuned RoBERTa model then performs the remainder of our SF technology-, concept- and miscellaneous-term extraction for our ~135k entity-containing sentences from across the corpus.
 
-### Note
+The next steps, Step 3 and Step 4, are "features to come"; I am currently in the process of completing my RoBERTa fine-tuning.
+
+### Step 3: LDA topic modeling, time series analyses, and general collation
+  - After RoBERTa-powered NER, we shall be using [Latent Dirichlet Allocation](https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2) via the [`gensim`](https://radimrehurek.com/gensim/models/ldamodel.html) library, along with [`scikit-learn`](https://scikit-learn.org/stable/) to model topics, themes etc. for further analysis on this "substantial essence" (represented by tech, concept and character-containing sentences) of the corpus.
+
+### Step 4: Creation of final graphs and visualization of results, final commit
+  - An `app.py` or `main.py` file will be created, containing code that a user or explorer of the repo can simply run to visualize our results. This shall complete the project.
+
+## Note
 
 This project is in its final stages of development. Most individual modules are complete and can be used or repurposed. The documentation is also comprehensive and mostly up-to-date. However, please know that some of the organization and in-project README.txt files have not been updated yet. For example, the README.txt in the **[Archive](https://github.com/kkrishna2023/deep_nlp_on_sf_literature/tree/main/Archive)** directory does not entirely capture how the directory has evolved since then. 
 
