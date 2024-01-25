@@ -23,8 +23,10 @@ import itertools
 # nltk.download()  # Run this line whenever project is to be executed for the first time. Triggers nltk data-packs to download
                    # to local system.
 
-# Path to the default corpus
-FILEPATH = '../Data Files (Readable)/Input Files/internet_archive_scifi_v3.txt'
+FILEPATH = '../Input Files/internet_archive_scifi_v3.txt''
+
+# Path to a sample corpus
+FILEPATH = '../Input Files/small_sample_text_for_testing.txt' # DELETE (or comment-out) this line in order to process the "real" corpus
 
 # Functions to help the class
 def find_distances_between_instances(array, word):
