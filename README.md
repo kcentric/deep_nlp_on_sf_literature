@@ -9,7 +9,7 @@ Hello! Welcome to my debut project. The [dataset](https://www.kaggle.com/dataset
 The stories span multiple decades and contain a variety of writing styles, themes, and ideas. They represent a good snapshot of 20th-century SF literature, and have demonstrated their usefulness before for awesome projects like [Robin Sloan's Autocomplete](https://www.robinsloan.com/notes/writing-with-the-machine/).
 
 I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. The steps were as follows:
-- **Step 1:** Rigorously preparing the data. You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
+- **Step 1: Rigorous preparation** of the data. You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
   - I split the text into units of sentences and tokens using [NLTK](https://www.nltk.org/). Tokens are analogous to words in that they are units of meaning: they make text better suited for Natural Language Processing (NLP). Here are some [examples](https://www.nltk.org/howto/tokenize.html).
   - I **clean** the tokenized text by removing spaces, words like "a, an, the" that may not add meaning but are very frequent in the data. The function doing most of this work is `clean_string`. Its header looks like this in `CorpusProcessor`:
 
@@ -19,7 +19,7 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
           """Takes in a string and removes line breaks, punctuation, stop-words, numbers, and proceeds to stem/lemmatize.
           Returns the "cleaned" text finally. Capable of nuances depending on inputs."""
     ```
-     Note that we have a `working_on_stories` parameter that defaults to `True`. The reason I made my cleaning methods so versatile and customized is that for domain-  specific datasets, merely removing "a, an, the" etc. **is not sufficient**. For example, the words "said," "replied," "asked" might be just as common in a story-corpus as the article "and". (I have not statistically modeled this. Feel free to drop me a comment about whether this is true 🙂)
+     Note that we have a `working_on_stories` parameter that defaults to `True`. The reason I made my cleaning methods so versatile and customized is that for domain-specific datasets, merely removing "a, an, the" etc. **is not sufficient**. For example, the words "said," "replied," "asked" might be just as common in a story-corpus as the article "and". (I have not statistically modeled this. Feel free to drop me a comment about whether this is true 🙂)
   - Besides cleaning, CorpusProcessor's `initial_prep` also [lemmatizes](https://builtin.com/machine-learning/lemmatization) the text, and then creates a representation of the whole corpus as a (humongous) list of words, as a list of sentences, and as a list of cleaned sentences.
 
     ```python
@@ -35,10 +35,17 @@ I wanted to analyze the corpus itself, and in the process gain insights into the
         return "This function does not return prepped text, but rather just preps the text to now be contained" 
                "as the CorpusProcessor's attributes. Please call those attributes if you wish to see the cleaned text :-)"
     ```
-The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a Pandas dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
+    The main functions that I use CorpusProcessor's attributes for are to split the corpus into individual books (by splitting around valid appearances of 'Copyright' in the wordlist) so that I can have separate documents for topic-modeling via [LDA](https://radimrehurek.com/gensim/auto_examples/tutorials/run_lda.html), and to create a Pandas dataframe containing the 3.5 million (cleaned) sentences of the corpus: the dataframe is very useful for [NER](https://spacy.io/usage/spacy-101).
 
-- **Step 2**: Named Entity Recognition (NER). You can find the code in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
-
+- **Step 2: Multi-stage named entity recognition** (NER). This turned out to be the most involved part of the project. You can begin exploring in `NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/NER.py).
+  - [NER](https://www.turing.com/kb/a-comprehensive-guide-to-named-entity-recognition) is typically the process of extracting words or series of words from a text and categorizing them under common labels like "Person," "Organization," "Location," or custom labels like "Healthcare Terms," "Programming Languages" etc. For my corpus, I was primarily interested in extracting terms that represented *SF technologies*, *SF concepts*, and miscellaneous significant terms that contained plot- or theme-related meaning.
+  - I began by performing a blanket-NER task across the whole corpus, using a Pandas dataframe created earlier from `CorpusProcessor` as my input. The Pandas dataframe contained the corpus as a list of sentences, and my optimized NER algo using the [spaCy](https://spacy.io/api/entityrecognizer) library with its parallelization capabilities generated a **new** dataframe that would look like:
+    
+    ```python
+                                              Sentence          Entity Entity_type
+    0  In a galaxy far, far away, Luke Skywalker tra...  Luke Skywalker      Person
+    1  The year 2050 marked a new era for humanity.                2050        Date
+      ```
 
 The aims of this project are threefold:
 - Develop a repository that **easily** be **refitted, reused, or expanded** to many different kinds of domain-specific literature analysis tasks. This is the overall, community-oriented guiding vision.
