@@ -11,7 +11,7 @@ The stories span multiple decades and contain a variety of writing styles, theme
 I wanted to analyze the corpus itself, and in the process gain insights into the era of SF literature it represents. I decided to use a multi-pronged, multi-stage approach, in each step focusing on making my code as generalizable and well-documented as possible. The steps were as follows:
 - **Step 1: Rigorous preparation** of the data. You can find the code for this in `CorpusProcessor_with_NER.py`, [here](https://github.com/kkrishna24/deep_nlp_on_sf_literature/blob/main/main%20files/CorpusProcessor_with_NER.py).
   - I split the text into units of sentences and tokens using [NLTK](https://www.nltk.org/). Tokens are analogous to words in that they are units of meaning: they make text better suited for Natural Language Processing (NLP). Here are some [examples](https://www.nltk.org/howto/tokenize.html).
-  - I **clean** the tokenized text by removing spaces, words like "a, an, the" that may not add meaning but are very frequent in the data. The function doing most of this work is `clean_string`. Its header looks like this in `CorpusProcessor`:
+  - I **clean** the tokenized text by removing spaces, words like "a, an, the" that may not add meaning but are very frequent in the data, etc. The function doing most of this work is `clean_string`. Its header looks like this in `CorpusProcessor`:
 
     ```python
       def clean_string(self, text, only_remove_line_breaks=False, pos_tokens_if_lemmatizing=None, find_pos=False,
