@@ -50,7 +50,7 @@ An example of a cleaned string vs an uncleaned string:
 - Insert a plain text file in the `Input Files` directory. There is no specific format it has to be in, but it works best if it's as regular a text file as we get. Check out [`small_sample_text_for_testing.txt`](https://github.com/kkrishna24/deep_nlp_on_sf_literature/tree/main/Input%20Files) to see how your corpus/file should look like.
 - Go to `CorpusProcessor_with_NER.py`. Change the `FILEPATH` variable, right at the top of the code, to say "../Input Files/`[your_file_name]`.txt". Replace `your_file_name` with your actual file name.
 - Make sure to uncomment the line saying `nltk.download()` right above `FILEPATH`, if you don't have NLTK on your system.
-  Here's how the code-snippet at the top of the `CorpusProcessor` module should like then:
+  Here's how the code-snippet at the top of the `CorpusProcessor` module should look like then:
 
   ```python
   nltk.download()  # Run this line whenever the project is to be executed for the first time. 
